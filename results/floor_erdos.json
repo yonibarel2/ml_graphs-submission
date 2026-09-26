@@ -1,0 +1,46 @@
+{
+  "config": "erdos",
+  "repeats": 3,
+  "report": {
+    "hf-qwen3-8b-nscale": {
+      "direct/-": {
+        "n": 150,
+        "unstable": 38,
+        "floor": 0.2533,
+        "dropped": 0
+      },
+      "code/networkx": {
+        "n": 150,
+        "unstable": 6,
+        "floor": 0.04,
+        "dropped": 0
+      },
+      "code/native": {
+        "n": 150,
+        "unstable": 4,
+        "floor": 0.0267,
+        "dropped": 0
+      }
+    },
+    "hf-deepseek-v3.1-novita": {
+      "direct/-": {
+        "n": 150,
+        "unstable": 19,
+        "floor": 0.1267,
+        "dropped": 0
+      },
+      "code/networkx": {
+        "n": 150,
+        "unstable": 4,
+        "floor": 0.0267,
+        "dropped": 0
+      },
+      "code/native": {
+        "n": 150,
+        "unstable": 0,
+        "floor": 0.0,
+        "dropped": 0
+      }
+    }
+  }
+}

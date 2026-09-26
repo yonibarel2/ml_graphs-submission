@@ -1,0 +1,42 @@
+{
+ "repo": "Yonibarel/graph-serialization-invariance",
+ "revision": "8e1c18632a132d5e13ee95164f75651bcf1730e9",
+ "downloaded": "2026-09-24T01:30:09",
+ "note": "raw_replies were added in this revision (2026-09-23); the scored files were re-compressed but their records are byte-identical to revision 22edd1f, which the analysis restored. Every sha256 below matches the dataset's published LFS object id.",
+ "files": [
+  {
+   "file": "raw_replies/hf-deepseek-v4-flash.tar.gz",
+   "bytes": 22578358,
+   "sha256": "87cc81c9a213147a112fd1c3ecf31a654d081dd2ddaf2fe8176079002508df20"
+  },
+  {
+   "file": "raw_replies/hf-gemma-4-31b.tar.gz",
+   "bytes": 27911715,
+   "sha256": "062997e4f377ed7a4249f3fe1b6ed4eba9025abc4c03e808336c64403e232ebc"
+  },
+  {
+   "file": "scored/erdos/hf-deepseek-v4-flash.jsonl.gz",
+   "bytes": 3125487,
+   "sha256": "410371e18877e127f3bafefec07b1c0489f07955f1a63c65b74210d3c59a6d26",
+   "records_identical_to_22edd1f": true
+  },
+  {
+   "file": "scored/erdos/hf-gemma-4-31b.jsonl.gz",
+   "bytes": 3209790,
+   "sha256": "c74ea319620d888f6b3c72eda76c8b7707499c4830eebac028436954f943139a",
+   "records_identical_to_22edd1f": true
+  },
+  {
+   "file": "scored/graphqa/hf-deepseek-v4-flash.jsonl.gz",
+   "bytes": 1989969,
+   "sha256": "84336f261d6e4ec7517c53644009b7c28a22bebdb738ea653b507d8b667bfac5",
+   "records_identical_to_22edd1f": true
+  },
+  {
+   "file": "scored/graphqa/hf-gemma-4-31b.jsonl.gz",
+   "bytes": 2114516,
+   "sha256": "1c6a7bd1a01233f7694717077c0cb5e7cfd712aa45edd6c34f4651c4317a49b9",
+   "records_identical_to_22edd1f": true
+  }
+ ]
+}

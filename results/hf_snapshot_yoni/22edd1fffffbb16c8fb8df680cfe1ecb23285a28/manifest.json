@@ -1,0 +1,31 @@
+{
+ "repo": "Yonibarel/graph-serialization-invariance",
+ "revision": "22edd1fffffbb16c8fb8df680cfe1ecb23285a28",
+ "downloaded": "2026-09-22T23:08:53",
+ "files": [
+  {
+   "file": "scored/graphqa/hf-gemma-4-31b.jsonl.gz",
+   "bytes": 2114516,
+   "sha256": "076c04ae8b077de8a640e69063801345592b6bab60c3f283367fccbc3db2c723",
+   "seconds": 1.6
+  },
+  {
+   "file": "scored/graphqa/hf-deepseek-v4-flash.jsonl.gz",
+   "bytes": 1989969,
+   "sha256": "9a7b489388b8a9a0c4e162785b96685cef46bcf7bdb1e63cd44afb7d1650b12b",
+   "seconds": 1.4
+  },
+  {
+   "file": "scored/erdos/hf-gemma-4-31b.jsonl.gz",
+   "bytes": 3209790,
+   "sha256": "d354cdbb313fca64353a606905ffa692831fcfed574b17a56780a7fcd3d89feb",
+   "seconds": 1.4
+  },
+  {
+   "file": "scored/erdos/hf-deepseek-v4-flash.jsonl.gz",
+   "bytes": 3125487,
+   "sha256": "2a5ed3a7c76e11c9183015a0b5989dd3364e467e67958f638e9f0b4a0ff0d3f8",
+   "seconds": 1.3
+  }
+ ]
+}

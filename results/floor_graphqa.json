@@ -1,0 +1,40 @@
+{
+  "config": "graphqa",
+  "repeats": 3,
+  "report": {
+    "hf-qwen3-8b-nscale": {
+      "direct/-": {
+        "n": 150,
+        "unstable": 12,
+        "floor": 0.08
+      },
+      "code/networkx": {
+        "n": 150,
+        "unstable": 4,
+        "floor": 0.0267
+      },
+      "code/native": {
+        "n": 150,
+        "unstable": 3,
+        "floor": 0.02
+      }
+    },
+    "hf-deepseek-v3.1-novita": {
+      "direct/-": {
+        "n": 150,
+        "unstable": 7,
+        "floor": 0.0467
+      },
+      "code/networkx": {
+        "n": 150,
+        "unstable": 1,
+        "floor": 0.0067
+      },
+      "code/native": {
+        "n": 150,
+        "unstable": 1,
+        "floor": 0.0067
+      }
+    }
+  }
+}

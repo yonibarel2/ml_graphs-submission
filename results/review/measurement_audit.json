@@ -1,0 +1,3613 @@
+{
+  "graphqa_floor_sample": {
+    "n": 150,
+    "tasks": {
+      "connected_nodes": 22,
+      "edge_existence": 22,
+      "cycle_check": 22,
+      "node_count": 21,
+      "disconnected_nodes": 21,
+      "node_degree": 21,
+      "edge_count": 21
+    },
+    "generators": {
+      "ba": 37,
+      "complete": 9,
+      "er": 47,
+      "path": 9,
+      "sbm": 28,
+      "sfn": 20
+    },
+    "graphs": 86
+  },
+  "graphqa/hf-deepseek-v3.1-novita": {
+    "n": 44625,
+    "parse_failures": 95,
+    "categories": {
+      "graph_as_code/native/relabel": {
+        "n": 700,
+        "identical_correct": 611,
+        "identical_wrong": 89,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 611,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 301,
+        "forms_4": 699,
+        "forms_3": 1
+      },
+      "graph_as_code/networkx/order": {
+        "n": 689,
+        "identical_correct": 600,
+        "identical_wrong": 89,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 600,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 689,
+        "forms_4": 587,
+        "forms_3": 63,
+        "forms_2": 39
+      },
+      "graph_as_code/networkx/structure": {
+        "n": 700,
+        "identical_correct": 611,
+        "identical_wrong": 89,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 611,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 700,
+        "forms_3": 700
+      },
+      "graph_as_code/networkx/syntax": {
+        "n": 700,
+        "identical_correct": 611,
+        "identical_wrong": 89,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 611,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 700,
+        "forms_4": 700
+      },
+      "graph_as_code/networkx/relabel": {
+        "n": 700,
+        "identical_correct": 611,
+        "identical_wrong": 89,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 611,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 301,
+        "forms_4": 699,
+        "forms_3": 1
+      },
+      "graph_as_code/native/order": {
+        "n": 689,
+        "identical_correct": 600,
+        "identical_wrong": 89,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 600,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 689,
+        "forms_4": 587,
+        "forms_3": 63,
+        "forms_2": 39
+      },
+      "graph_as_code/native/structure": {
+        "n": 700,
+        "identical_correct": 611,
+        "identical_wrong": 89,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 611,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 700,
+        "forms_3": 700
+      },
+      "graph_as_code/native/syntax": {
+        "n": 700,
+        "identical_correct": 611,
+        "identical_wrong": 89,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 611,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 700,
+        "forms_4": 700
+      },
+      "code/networkx/order": {
+        "n": 689,
+        "identical_correct": 577,
+        "identical_wrong": 88,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 5,
+        "parse_failure": 19,
+        "all_parse_failed": 1,
+        "ref_correct": 590,
+        "ref_correct_some_wrong": 13,
+        "calls_1": 0,
+        "forms_4": 587,
+        "forms_3": 63,
+        "forms_2": 39
+      },
+      "code/networkx/relabel": {
+        "n": 700,
+        "identical_correct": 589,
+        "identical_wrong": 88,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 7,
+        "parse_failure": 16,
+        "all_parse_failed": 0,
+        "ref_correct": 601,
+        "ref_correct_some_wrong": 12,
+        "calls_1": 3,
+        "forms_4": 699,
+        "forms_3": 1
+      },
+      "code/networkx/structure": {
+        "n": 700,
+        "identical_correct": 592,
+        "identical_wrong": 88,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 5,
+        "parse_failure": 15,
+        "all_parse_failed": 0,
+        "ref_correct": 601,
+        "ref_correct_some_wrong": 9,
+        "calls_1": 0,
+        "forms_3": 700
+      },
+      "code/networkx/syntax": {
+        "n": 700,
+        "identical_correct": 582,
+        "identical_wrong": 88,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 5,
+        "parse_failure": 25,
+        "all_parse_failed": 1,
+        "ref_correct": 601,
+        "ref_correct_some_wrong": 19,
+        "calls_1": 0,
+        "forms_4": 700
+      },
+      "code/native/order": {
+        "n": 689,
+        "identical_correct": 585,
+        "identical_wrong": 89,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 15,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 599,
+        "ref_correct_some_wrong": 14,
+        "calls_1": 0,
+        "forms_4": 587,
+        "forms_3": 63,
+        "forms_2": 39
+      },
+      "code/native/relabel": {
+        "n": 700,
+        "identical_correct": 590,
+        "identical_wrong": 89,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 21,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 610,
+        "ref_correct_some_wrong": 20,
+        "calls_1": 3,
+        "forms_4": 699,
+        "forms_3": 1
+      },
+      "direct/None/order": {
+        "n": 689,
+        "identical_correct": 509,
+        "identical_wrong": 111,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 68,
+        "parse_failure": 1,
+        "all_parse_failed": 0,
+        "ref_correct": 552,
+        "ref_correct_some_wrong": 43,
+        "calls_1": 0,
+        "forms_4": 587,
+        "forms_3": 63,
+        "forms_2": 39
+      },
+      "direct/None/structure": {
+        "n": 700,
+        "identical_correct": 546,
+        "identical_wrong": 23,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 130,
+        "parse_failure": 1,
+        "all_parse_failed": 0,
+        "ref_correct": 563,
+        "ref_correct_some_wrong": 17,
+        "calls_1": 0,
+        "forms_3": 700
+      },
+      "direct/None/syntax": {
+        "n": 700,
+        "identical_correct": 535,
+        "identical_wrong": 81,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 84,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 563,
+        "ref_correct_some_wrong": 28,
+        "calls_1": 0,
+        "forms_4": 700
+      },
+      "direct/None/relabel": {
+        "n": 700,
+        "identical_correct": 515,
+        "identical_wrong": 108,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 76,
+        "parse_failure": 1,
+        "all_parse_failed": 0,
+        "ref_correct": 563,
+        "ref_correct_some_wrong": 48,
+        "calls_1": 3,
+        "forms_4": 699,
+        "forms_3": 1
+      },
+      "code/native/structure": {
+        "n": 700,
+        "identical_correct": 515,
+        "identical_wrong": 87,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 98,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 610,
+        "ref_correct_some_wrong": 95,
+        "calls_1": 0,
+        "forms_3": 700
+      },
+      "code/native/syntax": {
+        "n": 700,
+        "identical_correct": 588,
+        "identical_wrong": 89,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 23,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 610,
+        "ref_correct_some_wrong": 22,
+        "calls_1": 0,
+        "forms_4": 700
+      }
+    },
+    "no_computation": {
+      "code/native/correct": 1,
+      "code/networkx/correct": 14
+    },
+    "empty_nonstandard": [],
+    "duplicate_node_sets": [
+      {
+        "record_id": "graphqa-er-0013-connected_nodes::structure:adj_list::code::native::hf-deepseek-v3.1-novita",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 7, 7, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0019-connected_nodes::structure:adj_list::code::native::hf-deepseek-v3.1-novita",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 3, 3, 4, 4, 8, 8, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0022-connected_nodes::structure:adj_list::code::native::hf-deepseek-v3.1-novita",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0029-connected_nodes::structure:adj_list::code::native::hf-deepseek-v3.1-novita",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[4, 4]",
+        "correct": false
+      }
+    ],
+    "shortest_cells": {},
+    "m3": {
+      "edge_existence/native": {
+        "n": 1274,
+        "correct": 1274,
+        "unique_prompt_hashes": 169,
+        "unique_code_failures": 0
+      },
+      "edge_existence/networkx": {
+        "n": 1274,
+        "correct": 1274,
+        "unique_prompt_hashes": 169,
+        "unique_code_failures": 0
+      },
+      "node_degree/networkx": {
+        "n": 1275,
+        "correct": 1275,
+        "unique_prompt_hashes": 20,
+        "unique_code_failures": 0
+      },
+      "node_degree/native": {
+        "n": 1275,
+        "correct": 1275,
+        "unique_prompt_hashes": 20,
+        "unique_code_failures": 0
+      },
+      "node_count/native": {
+        "n": 1277,
+        "correct": 1277,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "node_count/networkx": {
+        "n": 1277,
+        "correct": 1277,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "edge_count/networkx": {
+        "n": 1276,
+        "correct": 1276,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "edge_count/native": {
+        "n": 1276,
+        "correct": 1276,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "connected_nodes/networkx": {
+        "n": 1273,
+        "correct": 1273,
+        "unique_prompt_hashes": 19,
+        "unique_code_failures": 0
+      },
+      "connected_nodes/native": {
+        "n": 1273,
+        "correct": 1273,
+        "unique_prompt_hashes": 19,
+        "unique_code_failures": 0
+      },
+      "disconnected_nodes/networkx": {
+        "n": 1276,
+        "correct": 137,
+        "unique_prompt_hashes": 20,
+        "unique_code_failures": 20
+      },
+      "disconnected_nodes/native": {
+        "n": 1276,
+        "correct": 137,
+        "unique_prompt_hashes": 20,
+        "unique_code_failures": 20
+      },
+      "cycle_check/networkx": {
+        "n": 1274,
+        "correct": 1274,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "cycle_check/native": {
+        "n": 1274,
+        "correct": 1274,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      }
+    }
+  },
+  "graphqa/hf-qwen3-8b-nscale": {
+    "n": 44625,
+    "parse_failures": 1668,
+    "categories": {
+      "graph_as_code/native/relabel": {
+        "n": 700,
+        "identical_correct": 700,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 700,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 301,
+        "forms_4": 699,
+        "forms_3": 1
+      },
+      "graph_as_code/networkx/relabel": {
+        "n": 700,
+        "identical_correct": 600,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 100,
+        "all_parse_failed": 100,
+        "ref_correct": 600,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 301,
+        "forms_4": 699,
+        "forms_3": 1
+      },
+      "graph_as_code/networkx/order": {
+        "n": 689,
+        "identical_correct": 590,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 99,
+        "all_parse_failed": 99,
+        "ref_correct": 590,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 689,
+        "forms_4": 587,
+        "forms_3": 63,
+        "forms_2": 39
+      },
+      "graph_as_code/networkx/structure": {
+        "n": 700,
+        "identical_correct": 600,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 100,
+        "all_parse_failed": 100,
+        "ref_correct": 600,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 700,
+        "forms_3": 700
+      },
+      "graph_as_code/networkx/syntax": {
+        "n": 700,
+        "identical_correct": 600,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 100,
+        "all_parse_failed": 100,
+        "ref_correct": 600,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 700,
+        "forms_4": 700
+      },
+      "graph_as_code/native/order": {
+        "n": 689,
+        "identical_correct": 689,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 689,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 689,
+        "forms_4": 587,
+        "forms_3": 63,
+        "forms_2": 39
+      },
+      "graph_as_code/native/structure": {
+        "n": 700,
+        "identical_correct": 700,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 700,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 700,
+        "forms_3": 700
+      },
+      "graph_as_code/native/syntax": {
+        "n": 700,
+        "identical_correct": 700,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 700,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 700,
+        "forms_4": 700
+      },
+      "code/networkx/order": {
+        "n": 689,
+        "identical_correct": 589,
+        "identical_wrong": 28,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 53,
+        "parse_failure": 19,
+        "all_parse_failed": 3,
+        "ref_correct": 625,
+        "ref_correct_some_wrong": 36,
+        "calls_1": 0,
+        "forms_4": 587,
+        "forms_3": 63,
+        "forms_2": 39
+      },
+      "code/networkx/structure": {
+        "n": 700,
+        "identical_correct": 563,
+        "identical_wrong": 6,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 93,
+        "parse_failure": 38,
+        "all_parse_failed": 0,
+        "ref_correct": 631,
+        "ref_correct_some_wrong": 68,
+        "calls_1": 0,
+        "forms_3": 700
+      },
+      "code/networkx/syntax": {
+        "n": 700,
+        "identical_correct": 425,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 38,
+        "parse_failure": 237,
+        "all_parse_failed": 0,
+        "ref_correct": 631,
+        "ref_correct_some_wrong": 206,
+        "calls_1": 0,
+        "forms_4": 700
+      },
+      "code/networkx/relabel": {
+        "n": 700,
+        "identical_correct": 585,
+        "identical_wrong": 23,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 73,
+        "parse_failure": 19,
+        "all_parse_failed": 3,
+        "ref_correct": 631,
+        "ref_correct_some_wrong": 46,
+        "calls_1": 3,
+        "forms_4": 699,
+        "forms_3": 1
+      },
+      "code/native/relabel": {
+        "n": 700,
+        "identical_correct": 647,
+        "identical_wrong": 2,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 50,
+        "parse_failure": 1,
+        "all_parse_failed": 0,
+        "ref_correct": 682,
+        "ref_correct_some_wrong": 35,
+        "calls_1": 3,
+        "forms_4": 699,
+        "forms_3": 1
+      },
+      "code/native/order": {
+        "n": 689,
+        "identical_correct": 656,
+        "identical_wrong": 4,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 28,
+        "parse_failure": 1,
+        "all_parse_failed": 0,
+        "ref_correct": 676,
+        "ref_correct_some_wrong": 20,
+        "calls_1": 0,
+        "forms_4": 587,
+        "forms_3": 63,
+        "forms_2": 39
+      },
+      "code/native/structure": {
+        "n": 700,
+        "identical_correct": 418,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 274,
+        "parse_failure": 8,
+        "all_parse_failed": 0,
+        "ref_correct": 682,
+        "ref_correct_some_wrong": 264,
+        "calls_1": 0,
+        "forms_3": 700
+      },
+      "code/native/syntax": {
+        "n": 700,
+        "identical_correct": 666,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 31,
+        "parse_failure": 3,
+        "all_parse_failed": 0,
+        "ref_correct": 682,
+        "ref_correct_some_wrong": 16,
+        "calls_1": 0,
+        "forms_4": 700
+      },
+      "direct/None/relabel": {
+        "n": 700,
+        "identical_correct": 485,
+        "identical_wrong": 43,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 161,
+        "parse_failure": 11,
+        "all_parse_failed": 2,
+        "ref_correct": 596,
+        "ref_correct_some_wrong": 111,
+        "calls_1": 3,
+        "forms_4": 699,
+        "forms_3": 1
+      },
+      "direct/None/order": {
+        "n": 689,
+        "identical_correct": 484,
+        "identical_wrong": 49,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 148,
+        "parse_failure": 8,
+        "all_parse_failed": 0,
+        "ref_correct": 589,
+        "ref_correct_some_wrong": 105,
+        "calls_1": 0,
+        "forms_4": 587,
+        "forms_3": 63,
+        "forms_2": 39
+      },
+      "direct/None/structure": {
+        "n": 700,
+        "identical_correct": 445,
+        "identical_wrong": 31,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 215,
+        "parse_failure": 9,
+        "all_parse_failed": 0,
+        "ref_correct": 596,
+        "ref_correct_some_wrong": 151,
+        "calls_1": 0,
+        "forms_3": 700
+      },
+      "direct/None/syntax": {
+        "n": 700,
+        "identical_correct": 468,
+        "identical_wrong": 40,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 187,
+        "parse_failure": 5,
+        "all_parse_failed": 0,
+        "ref_correct": 596,
+        "ref_correct_some_wrong": 128,
+        "calls_1": 0,
+        "forms_4": 700
+      }
+    },
+    "no_computation": {
+      "code/native/correct": 4,
+      "code/networkx/correct": 2
+    },
+    "empty_nonstandard": [
+      {
+        "record_id": "graphqa-star-0002-disconnected_nodes::order:s_sorted_t_shuffled:s0::direct::hf-qwen3-8b-nscale",
+        "mode": "direct",
+        "task": "disconnected_nodes",
+        "axis": "order",
+        "answer_line": "Not enough information",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-complete-0016-disconnected_nodes::structure:replicated::direct::hf-qwen3-8b-nscale",
+        "mode": "direct",
+        "task": "disconnected_nodes",
+        "axis": "structure",
+        "answer_line": "\\varnothing",
+        "correct": true
+      },
+      {
+        "record_id": "graphqa-er-0025-connected_nodes::relabel:s0::direct::hf-qwen3-8b-nscale",
+        "mode": "direct",
+        "task": "connected_nodes",
+        "axis": "relabel",
+        "answer_line": "ANSWER",
+        "correct": true
+      },
+      {
+        "record_id": "graphqa-er-0025-connected_nodes::relabel:s2::direct::hf-qwen3-8b-nscale",
+        "mode": "direct",
+        "task": "connected_nodes",
+        "axis": "relabel",
+        "answer_line": "ANSWER",
+        "correct": true
+      },
+      {
+        "record_id": "graphqa-er-0025-disconnected_nodes::canonical::direct::hf-qwen3-8b-nscale",
+        "mode": "direct",
+        "task": "disconnected_nodes",
+        "axis": "canonical",
+        "answer_line": "Cannot be determined without the list of edges",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0025-disconnected_nodes::relabel:identity::direct::hf-qwen3-8b-nscale",
+        "mode": "direct",
+        "task": "disconnected_nodes",
+        "axis": "relabel",
+        "answer_line": "Cannot be determined without the list of edges",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0025-disconnected_nodes::relabel:s0::direct::hf-qwen3-8b-nscale",
+        "mode": "direct",
+        "task": "disconnected_nodes",
+        "axis": "relabel",
+        "answer_line": "Cannot be determined without the list of edges",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0025-disconnected_nodes::structure:replicated::direct::hf-qwen3-8b-nscale",
+        "mode": "direct",
+        "task": "disconnected_nodes",
+        "axis": "structure",
+        "answer_line": "Cannot be determined without the list of edges",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0025-disconnected_nodes::relabel:s1::direct::hf-qwen3-8b-nscale",
+        "mode": "direct",
+        "task": "disconnected_nodes",
+        "axis": "relabel",
+        "answer_line": "Cannot be determined without the list of edges",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0025-disconnected_nodes::relabel:s2::direct::hf-qwen3-8b-nscale",
+        "mode": "direct",
+        "task": "disconnected_nodes",
+        "axis": "relabel",
+        "answer_line": "Cannot be determined without the edges of the graph",
+        "correct": false
+      }
+    ],
+    "duplicate_node_sets": [
+      {
+        "record_id": "graphqa-sfn-0001-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-star-0002-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0003-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0004-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4, 5, 5, 12, 12, 16, 16]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0004-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4, 5, 5, 12, 12, 16, 16]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-path-0005-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-path-0005-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-complete-0006-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 18, 19, 19]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-complete-0006-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 18, 19, 19]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0007-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0008-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0008-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-path-0009-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[7, 7, 9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-path-0009-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[7, 7, 9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0010-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0010-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0011-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 2, 2, 3, 3, 5, 5, 7, 7, 9, 9, 11, 11, 12, 12]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0011-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 2, 2, 3, 3, 5, 5, 7, 7, 9, 9, 11, 11, 12, 12]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0012-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0013-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 7, 7, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0013-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 7, 7, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0014-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0014-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-complete-0016-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-complete-0016-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0017-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0017-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0018-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 5, 5, 6, 6, 7, 7, 9, 9, 10, 10, 11, 11, 12, 12, 14, 14, 15, 15, 17, 17]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0018-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 5, 5, 6, 6, 7, 7, 9, 9, 10, 10, 11, 11, 12, 12, 14, 14, 15, 15, 17, 17]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0019-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 3, 3, 4, 4, 8, 8, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0019-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 3, 3, 4, 4, 8, 8, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0020-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 10, 10, 11, 11, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0020-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 10, 10, 11, 11, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0021-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0021-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0022-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0022-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-star-0023-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-star-0023-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0024-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0026-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 3, 3, 9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0026-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 3, 3, 9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0027-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 5, 5, 7, 7, 11, 11, 13, 13]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-path-0028-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[3, 3, 5, 5]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-path-0028-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[3, 3, 5, 5]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0029-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0029-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0030-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 2, 2, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0030-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 2, 2, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0031-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 8, 8, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0031-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 8, 8, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0032-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 6, 6, 9, 9, 11, 11, 12, 12, 15, 15, 17, 17]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0032-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 6, 6, 9, 9, 11, 11, 12, 12, 15, 15, 17, 17]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0033-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 3, 3, 4, 4, 7, 7, 10, 10, 11, 11]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0034-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 3, 3, 5, 5, 7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-path-0035-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[8, 8, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0036-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 13, 13]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0037-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0038-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 3, 3, 5, 5, 7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0038-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 3, 3, 5, 5, 7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0039-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0039-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0040-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0040-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0041-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 5, 5, 6, 6, 7, 7, 8, 8, 18, 18, 19, 19]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0041-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 5, 5, 6, 6, 7, 7, 8, 8, 18, 18, 19, 19]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0042-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4, 6, 6, 7, 7, 8, 8, 9, 9, 12, 12]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0042-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4, 6, 6, 7, 7, 8, 8, 9, 9, 12, 12]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-complete-0043-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 14, 14, 15, 15, 16, 16]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-complete-0043-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 14, 14, 15, 15, 16, 16]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0044-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 8, 8, 9, 9, 10, 10, 12, 12, 13, 13, 15, 15, 16, 16]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0044-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 8, 8, 9, 9, 10, 10, 12, 12, 13, 13, 15, 15, 16, 16]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0045-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0045-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0046-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 12, 12, 14, 14, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0047-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0047-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0048-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 9, 9, 11, 11, 12, 12, 13, 13, 15, 15, 17, 17, 18, 18]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0048-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 9, 9, 11, 11, 12, 12, 13, 13, 15, 15, 17, 17, 18, 18]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0049-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0049-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0050-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0050-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-complete-0051-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0052-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0052-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-star-0053-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0055-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 5, 5, 6, 6, 7, 7, 8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0055-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 5, 5, 6, 6, 7, 7, 8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0056-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[3, 3]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0056-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[3, 3]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0057-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 3, 3, 5, 5, 7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0058-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 3, 3, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-complete-0059-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-complete-0059-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0060-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 5, 5, 7, 7, 10, 10, 11, 11, 13, 13]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0060-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 5, 5, 7, 7, 10, 10, 11, 11, 13, 13]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0061-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0061-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0062-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[4, 4, 5, 5, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0062-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[4, 4, 5, 5, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0063-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0063-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0064-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 4, 4, 6, 6, 7, 7, 9, 9, 14, 14, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0064-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 4, 4, 6, 6, 7, 7, 9, 9, 14, 14, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0065-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 3, 3, 5, 5, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0065-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 3, 3, 5, 5, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-path-0066-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[3, 3, 5, 5]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0067-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 11, 11, 12, 12, 14, 14, 18, 18]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0067-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 11, 11, 12, 12, 14, 14, 18, 18]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0068-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 3, 3, 6, 6, 7, 7, 9, 9, 11, 11]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0068-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 3, 3, 6, 6, 7, 7, 9, 9, 11, 11]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0069-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0070-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0070-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0071-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0071-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0072-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0072-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0073-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0073-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0074-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[10, 10, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0074-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[10, 10, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0075-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-star-0076-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 3, 3, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0077-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0077-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0078-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 8, 8, 12, 12, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0078-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 8, 8, 12, 12, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0079-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0079-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0080-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4, 5, 5, 7, 7, 9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0080-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4, 5, 5, 7, 7, 9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0081-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 5, 5, 8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0081-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 5, 5, 8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0082-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 5, 5, 6, 6, 8, 8, 9, 9, 14, 14, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0082-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 5, 5, 6, 6, 8, 8, 9, 9, 14, 14, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0084-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0084-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0085-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0085-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0086-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0086-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0087-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 5, 5, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0087-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 5, 5, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0088-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 15, 15, 17, 17]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0088-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 15, 15, 17, 17]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0089-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 2, 2, 4, 4, 5, 5]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0089-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 2, 2, 4, 4, 5, 5]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0090-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 4, 4, 5, 5, 12, 12]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0090-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 4, 4, 5, 5, 12, 12]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0091-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 11, 11]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0091-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 11, 11]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0092-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4, 7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0092-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4, 7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0093-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 9, 9, 11, 11, 12, 12]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0093-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 9, 9, 11, 11, 12, 12]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0094-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 5, 5, 6, 6, 7, 7, 8, 8, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-ba-0094-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 2, 2, 5, 5, 6, 6, 7, 7, 8, 8, 10, 10]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-er-0095-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sbm-0097-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[0, 0, 1, 1, 3, 3, 4, 4, 7, 7, 9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0098-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 2, 5, 5, 7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0098-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 5, 5, 7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0099-connected_nodes::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "graphqa-sfn-0099-connected_nodes::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "connected_nodes",
+        "axis": "structure",
+        "answer_line": "[2, 2]",
+        "correct": false
+      }
+    ],
+    "shortest_cells": {},
+    "m3": {
+      "edge_existence/native": {
+        "n": 1274,
+        "correct": 1274,
+        "unique_prompt_hashes": 169,
+        "unique_code_failures": 0
+      },
+      "edge_existence/networkx": {
+        "n": 1274,
+        "correct": 1274,
+        "unique_prompt_hashes": 169,
+        "unique_code_failures": 0
+      },
+      "node_degree/networkx": {
+        "n": 1275,
+        "correct": 1275,
+        "unique_prompt_hashes": 20,
+        "unique_code_failures": 0
+      },
+      "node_degree/native": {
+        "n": 1275,
+        "correct": 1275,
+        "unique_prompt_hashes": 20,
+        "unique_code_failures": 0
+      },
+      "node_count/native": {
+        "n": 1277,
+        "correct": 1277,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "node_count/networkx": {
+        "n": 1277,
+        "correct": 1277,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "edge_count/native": {
+        "n": 1276,
+        "correct": 1276,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "edge_count/networkx": {
+        "n": 1276,
+        "correct": 1276,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "connected_nodes/networkx": {
+        "n": 1273,
+        "correct": 1273,
+        "unique_prompt_hashes": 19,
+        "unique_code_failures": 0
+      },
+      "connected_nodes/native": {
+        "n": 1273,
+        "correct": 1273,
+        "unique_prompt_hashes": 19,
+        "unique_code_failures": 0
+      },
+      "disconnected_nodes/networkx": {
+        "n": 1276,
+        "correct": 1276,
+        "unique_prompt_hashes": 20,
+        "unique_code_failures": 0
+      },
+      "disconnected_nodes/native": {
+        "n": 1276,
+        "correct": 1276,
+        "unique_prompt_hashes": 20,
+        "unique_code_failures": 0
+      },
+      "cycle_check/networkx": {
+        "n": 1274,
+        "correct": 0,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 1
+      },
+      "cycle_check/native": {
+        "n": 1274,
+        "correct": 1274,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      }
+    }
+  },
+  "erdos_floor_sample": {
+    "n": 150,
+    "tasks": {
+      "bridges": 13,
+      "common_neighbor": 12,
+      "connected_component_number": 13,
+      "degree": 12,
+      "density": 13,
+      "diameter": 12,
+      "edge_existence": 13,
+      "edge_number": 12,
+      "has_cycle": 13,
+      "neighbor": 12,
+      "shortest_path": 13,
+      "triangles": 12
+    },
+    "generators": {
+      "null": 150
+    },
+    "graphs": 150
+  },
+  "erdos/hf-deepseek-v3.1-novita": {
+    "n": 71230,
+    "parse_failures": 1503,
+    "categories": {
+      "graph_as_code/networkx/relabel": {
+        "n": 1200,
+        "identical_correct": 1021,
+        "identical_wrong": 119,
+        "different_all_correct": 55,
+        "different_all_parsed_incorrect": 1,
+        "parse_failure": 4,
+        "all_parse_failed": 0,
+        "ref_correct": 1081,
+        "ref_correct_some_wrong": 5,
+        "calls_1": 601,
+        "forms_4": 1199,
+        "forms_3": 1
+      },
+      "graph_as_code/networkx/order": {
+        "n": 1200,
+        "identical_correct": 1034,
+        "identical_wrong": 119,
+        "different_all_correct": 47,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 1081,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 1200,
+        "forms_4": 1133,
+        "forms_2": 9,
+        "forms_3": 58
+      },
+      "graph_as_code/networkx/structure": {
+        "n": 1200,
+        "identical_correct": 1081,
+        "identical_wrong": 119,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 1081,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 1200,
+        "forms_3": 1123,
+        "forms_2": 77
+      },
+      "graph_as_code/networkx/syntax": {
+        "n": 1200,
+        "identical_correct": 1081,
+        "identical_wrong": 119,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 1081,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 1200,
+        "forms_3": 1200
+      },
+      "graph_as_code/native/relabel": {
+        "n": 1200,
+        "identical_correct": 955,
+        "identical_wrong": 75,
+        "different_all_correct": 55,
+        "different_all_parsed_incorrect": 15,
+        "parse_failure": 100,
+        "all_parse_failed": 100,
+        "ref_correct": 1016,
+        "ref_correct_some_wrong": 6,
+        "calls_1": 601,
+        "forms_4": 1199,
+        "forms_3": 1
+      },
+      "graph_as_code/native/order": {
+        "n": 1200,
+        "identical_correct": 964,
+        "identical_wrong": 79,
+        "different_all_correct": 50,
+        "different_all_parsed_incorrect": 7,
+        "parse_failure": 100,
+        "all_parse_failed": 100,
+        "ref_correct": 1017,
+        "ref_correct_some_wrong": 3,
+        "calls_1": 1200,
+        "forms_4": 1133,
+        "forms_2": 9,
+        "forms_3": 58
+      },
+      "graph_as_code/native/structure": {
+        "n": 1200,
+        "identical_correct": 1017,
+        "identical_wrong": 83,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 100,
+        "all_parse_failed": 100,
+        "ref_correct": 1017,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 1200,
+        "forms_3": 1123,
+        "forms_2": 77
+      },
+      "graph_as_code/native/syntax": {
+        "n": 1200,
+        "identical_correct": 1017,
+        "identical_wrong": 83,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 100,
+        "all_parse_failed": 100,
+        "ref_correct": 1017,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 1200,
+        "forms_3": 1200
+      },
+      "code/networkx/relabel": {
+        "n": 1200,
+        "identical_correct": 1101,
+        "identical_wrong": 0,
+        "different_all_correct": 57,
+        "different_all_parsed_incorrect": 27,
+        "parse_failure": 15,
+        "all_parse_failed": 1,
+        "ref_correct": 1189,
+        "ref_correct_some_wrong": 31,
+        "calls_1": 0,
+        "forms_4": 1199,
+        "forms_3": 1
+      },
+      "code/networkx/order": {
+        "n": 1200,
+        "identical_correct": 1114,
+        "identical_wrong": 0,
+        "different_all_correct": 48,
+        "different_all_parsed_incorrect": 20,
+        "parse_failure": 18,
+        "all_parse_failed": 0,
+        "ref_correct": 1190,
+        "ref_correct_some_wrong": 28,
+        "calls_1": 0,
+        "forms_4": 1133,
+        "forms_2": 9,
+        "forms_3": 58
+      },
+      "code/networkx/structure": {
+        "n": 1200,
+        "identical_correct": 1147,
+        "identical_wrong": 0,
+        "different_all_correct": 16,
+        "different_all_parsed_incorrect": 20,
+        "parse_failure": 17,
+        "all_parse_failed": 0,
+        "ref_correct": 1190,
+        "ref_correct_some_wrong": 27,
+        "calls_1": 0,
+        "forms_3": 1123,
+        "forms_2": 77
+      },
+      "code/networkx/syntax": {
+        "n": 1200,
+        "identical_correct": 1181,
+        "identical_wrong": 0,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 6,
+        "parse_failure": 13,
+        "all_parse_failed": 0,
+        "ref_correct": 1190,
+        "ref_correct_some_wrong": 9,
+        "calls_1": 0,
+        "forms_3": 1200
+      },
+      "code/native/relabel": {
+        "n": 1200,
+        "identical_correct": 1121,
+        "identical_wrong": 0,
+        "different_all_correct": 57,
+        "different_all_parsed_incorrect": 21,
+        "parse_failure": 1,
+        "all_parse_failed": 0,
+        "ref_correct": 1198,
+        "ref_correct_some_wrong": 20,
+        "calls_1": 0,
+        "forms_4": 1199,
+        "forms_3": 1
+      },
+      "code/native/order": {
+        "n": 1200,
+        "identical_correct": 1129,
+        "identical_wrong": 0,
+        "different_all_correct": 53,
+        "different_all_parsed_incorrect": 16,
+        "parse_failure": 2,
+        "all_parse_failed": 0,
+        "ref_correct": 1198,
+        "ref_correct_some_wrong": 16,
+        "calls_1": 0,
+        "forms_4": 1133,
+        "forms_2": 9,
+        "forms_3": 58
+      },
+      "code/native/structure": {
+        "n": 1200,
+        "identical_correct": 1102,
+        "identical_wrong": 0,
+        "different_all_correct": 9,
+        "different_all_parsed_incorrect": 82,
+        "parse_failure": 7,
+        "all_parse_failed": 0,
+        "ref_correct": 1198,
+        "ref_correct_some_wrong": 87,
+        "calls_1": 0,
+        "forms_3": 1123,
+        "forms_2": 77
+      },
+      "code/native/syntax": {
+        "n": 1200,
+        "identical_correct": 1191,
+        "identical_wrong": 0,
+        "different_all_correct": 1,
+        "different_all_parsed_incorrect": 4,
+        "parse_failure": 4,
+        "all_parse_failed": 0,
+        "ref_correct": 1198,
+        "ref_correct_some_wrong": 6,
+        "calls_1": 0,
+        "forms_3": 1200
+      },
+      "direct/None/order": {
+        "n": 1200,
+        "identical_correct": 1019,
+        "identical_wrong": 3,
+        "different_all_correct": 50,
+        "different_all_parsed_incorrect": 72,
+        "parse_failure": 56,
+        "all_parse_failed": 0,
+        "ref_correct": 1156,
+        "ref_correct_some_wrong": 87,
+        "calls_1": 0,
+        "forms_4": 1133,
+        "forms_2": 9,
+        "forms_3": 58
+      },
+      "direct/None/structure": {
+        "n": 1200,
+        "identical_correct": 1050,
+        "identical_wrong": 0,
+        "different_all_correct": 37,
+        "different_all_parsed_incorrect": 73,
+        "parse_failure": 40,
+        "all_parse_failed": 0,
+        "ref_correct": 1156,
+        "ref_correct_some_wrong": 69,
+        "calls_1": 0,
+        "forms_3": 1123,
+        "forms_2": 77
+      },
+      "direct/None/syntax": {
+        "n": 1200,
+        "identical_correct": 1063,
+        "identical_wrong": 3,
+        "different_all_correct": 35,
+        "different_all_parsed_incorrect": 70,
+        "parse_failure": 29,
+        "all_parse_failed": 0,
+        "ref_correct": 1156,
+        "ref_correct_some_wrong": 58,
+        "calls_1": 0,
+        "forms_3": 1200
+      },
+      "direct/None/relabel": {
+        "n": 1200,
+        "identical_correct": 985,
+        "identical_wrong": 2,
+        "different_all_correct": 56,
+        "different_all_parsed_incorrect": 94,
+        "parse_failure": 63,
+        "all_parse_failed": 1,
+        "ref_correct": 1142,
+        "ref_correct_some_wrong": 101,
+        "calls_1": 0,
+        "forms_4": 1199,
+        "forms_3": 1
+      }
+    },
+    "no_computation": {},
+    "empty_nonstandard": [],
+    "duplicate_node_sets": [
+      {
+        "record_id": "erdos-neighbor-0004::structure:adj_list::code::native::hf-deepseek-v3.1-novita",
+        "mode": "code",
+        "task": "neighbor",
+        "axis": "structure",
+        "answer_line": "[3, 3, 16, 16]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-neighbor-0014::structure:adj_list::code::native::hf-deepseek-v3.1-novita",
+        "mode": "code",
+        "task": "neighbor",
+        "axis": "structure",
+        "answer_line": "[3, 3, 4, 4, 11, 11, 19, 19]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-neighbor-0033::structure:adj_list::code::native::hf-deepseek-v3.1-novita",
+        "mode": "code",
+        "task": "neighbor",
+        "axis": "structure",
+        "answer_line": "[14, 14, 29, 29]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-neighbor-0035::structure:adj_list::code::native::hf-deepseek-v3.1-novita",
+        "mode": "code",
+        "task": "neighbor",
+        "axis": "structure",
+        "answer_line": "[23, 23, 25, 25]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-neighbor-0042::structure:adj_list::code::native::hf-deepseek-v3.1-novita",
+        "mode": "code",
+        "task": "neighbor",
+        "axis": "structure",
+        "answer_line": "[2, 2, 3, 3, 4, 4, 5, 5, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-neighbor-0089::structure:adj_list::code::native::hf-deepseek-v3.1-novita",
+        "mode": "code",
+        "task": "neighbor",
+        "axis": "structure",
+        "answer_line": "[8, 8, 9, 9, 10, 10, 14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-neighbor-0097::structure:adj_list::code::native::hf-deepseek-v3.1-novita",
+        "mode": "code",
+        "task": "neighbor",
+        "axis": "structure",
+        "answer_line": "[8, 8, 16, 16]",
+        "correct": false
+      }
+    ],
+    "shortest_cells": {
+      "shortest_path/graph_as_code/networkx/relabel": {
+        "n": 100,
+        "identical": 45,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/networkx/order": {
+        "n": 100,
+        "identical": 53,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/networkx/structure": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/networkx/syntax": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/native/relabel": {
+        "n": 100,
+        "identical": 45,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/native/order": {
+        "n": 100,
+        "identical": 50,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/native/structure": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/native/syntax": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/code/networkx/relabel": {
+        "n": 100,
+        "identical": 45,
+        "all_correct": 99
+      },
+      "shortest_path/code/networkx/order": {
+        "n": 100,
+        "identical": 53,
+        "all_correct": 100
+      },
+      "shortest_path/code/networkx/structure": {
+        "n": 100,
+        "identical": 90,
+        "all_correct": 100
+      },
+      "shortest_path/code/networkx/syntax": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/code/native/relabel": {
+        "n": 100,
+        "identical": 44,
+        "all_correct": 98
+      },
+      "shortest_path/code/native/order": {
+        "n": 100,
+        "identical": 50,
+        "all_correct": 100
+      },
+      "shortest_path/code/native/structure": {
+        "n": 100,
+        "identical": 92,
+        "all_correct": 99
+      },
+      "shortest_path/code/native/syntax": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/direct/None/order": {
+        "n": 100,
+        "identical": 50,
+        "all_correct": 95
+      },
+      "shortest_path/direct/None/structure": {
+        "n": 100,
+        "identical": 65,
+        "all_correct": 96
+      },
+      "shortest_path/direct/None/syntax": {
+        "n": 100,
+        "identical": 67,
+        "all_correct": 95
+      },
+      "shortest_path/direct/None/relabel": {
+        "n": 100,
+        "identical": 44,
+        "all_correct": 91
+      }
+    },
+    "m3": {
+      "shortest_path/networkx": {
+        "n": 1185,
+        "correct": 1185,
+        "unique_prompt_hashes": 271,
+        "unique_code_failures": 0
+      },
+      "shortest_path/native": {
+        "n": 1185,
+        "correct": 1185,
+        "unique_prompt_hashes": 271,
+        "unique_code_failures": 0
+      },
+      "triangles/native": {
+        "n": 1197,
+        "correct": 1197,
+        "unique_prompt_hashes": 30,
+        "unique_code_failures": 0
+      },
+      "triangles/networkx": {
+        "n": 1197,
+        "correct": 1193,
+        "unique_prompt_hashes": 30,
+        "unique_code_failures": 1
+      },
+      "degree/networkx": {
+        "n": 1190,
+        "correct": 1190,
+        "unique_prompt_hashes": 48,
+        "unique_code_failures": 0
+      },
+      "degree/native": {
+        "n": 1190,
+        "correct": 1190,
+        "unique_prompt_hashes": 48,
+        "unique_code_failures": 0
+      },
+      "edge_number/native": {
+        "n": 1184,
+        "correct": 1184,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 0
+      },
+      "edge_number/networkx": {
+        "n": 1184,
+        "correct": 1184,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 0
+      },
+      "connected_component_number/networkx": {
+        "n": 1198,
+        "correct": 1198,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "connected_component_number/native": {
+        "n": 1198,
+        "correct": 1198,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "diameter/networkx": {
+        "n": 1191,
+        "correct": 1191,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 0
+      },
+      "diameter/native": {
+        "n": 1191,
+        "correct": 1064,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 1
+      },
+      "density/native": {
+        "n": 1185,
+        "correct": 1185,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 0
+      },
+      "density/networkx": {
+        "n": 1185,
+        "correct": 1185,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 0
+      },
+      "edge_existence/networkx": {
+        "n": 1187,
+        "correct": 1186,
+        "unique_prompt_hashes": 250,
+        "unique_code_failures": 1
+      },
+      "edge_existence/native": {
+        "n": 1187,
+        "correct": 1186,
+        "unique_prompt_hashes": 250,
+        "unique_code_failures": 1
+      },
+      "has_cycle/networkx": {
+        "n": 1170,
+        "correct": 608,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 1
+      },
+      "has_cycle/native": {
+        "n": 1170,
+        "correct": 1170,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 0
+      },
+      "neighbor/networkx": {
+        "n": 1173,
+        "correct": 315,
+        "unique_prompt_hashes": 53,
+        "unique_code_failures": 33
+      },
+      "neighbor/native": {
+        "n": 1173,
+        "correct": 315,
+        "unique_prompt_hashes": 53,
+        "unique_code_failures": 33
+      },
+      "common_neighbor/networkx": {
+        "n": 1189,
+        "correct": 1189,
+        "unique_prompt_hashes": 224,
+        "unique_code_failures": 0
+      },
+      "common_neighbor/native": {
+        "n": 1189,
+        "correct": 1189,
+        "unique_prompt_hashes": 224,
+        "unique_code_failures": 0
+      },
+      "bridges/native": {
+        "n": 1197,
+        "correct": 0,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 1
+      },
+      "bridges/networkx": {
+        "n": 1197,
+        "correct": 1197,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      }
+    }
+  },
+  "erdos/hf-qwen3-8b-nscale": {
+    "n": 71230,
+    "parse_failures": 9044,
+    "categories": {
+      "graph_as_code/networkx/order": {
+        "n": 1200,
+        "identical_correct": 681,
+        "identical_wrong": 72,
+        "different_all_correct": 47,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 400,
+        "all_parse_failed": 400,
+        "ref_correct": 728,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 1200,
+        "forms_4": 1133,
+        "forms_2": 9,
+        "forms_3": 58
+      },
+      "graph_as_code/networkx/structure": {
+        "n": 1200,
+        "identical_correct": 728,
+        "identical_wrong": 72,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 400,
+        "all_parse_failed": 400,
+        "ref_correct": 728,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 1200,
+        "forms_3": 1123,
+        "forms_2": 77
+      },
+      "graph_as_code/networkx/syntax": {
+        "n": 1200,
+        "identical_correct": 728,
+        "identical_wrong": 72,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 400,
+        "all_parse_failed": 400,
+        "ref_correct": 728,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 1200,
+        "forms_3": 1200
+      },
+      "graph_as_code/networkx/relabel": {
+        "n": 1200,
+        "identical_correct": 673,
+        "identical_wrong": 72,
+        "different_all_correct": 55,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 400,
+        "all_parse_failed": 400,
+        "ref_correct": 728,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 601,
+        "forms_4": 1199,
+        "forms_3": 1
+      },
+      "graph_as_code/native/order": {
+        "n": 1200,
+        "identical_correct": 1075,
+        "identical_wrong": 75,
+        "different_all_correct": 50,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 1125,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 1200,
+        "forms_4": 1133,
+        "forms_2": 9,
+        "forms_3": 58
+      },
+      "graph_as_code/native/structure": {
+        "n": 1200,
+        "identical_correct": 1125,
+        "identical_wrong": 75,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 1125,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 1200,
+        "forms_3": 1123,
+        "forms_2": 77
+      },
+      "graph_as_code/native/syntax": {
+        "n": 1200,
+        "identical_correct": 1125,
+        "identical_wrong": 75,
+        "different_all_correct": 0,
+        "different_all_parsed_incorrect": 0,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 1125,
+        "ref_correct_some_wrong": 0,
+        "calls_1": 1200,
+        "forms_3": 1200
+      },
+      "graph_as_code/native/relabel": {
+        "n": 1200,
+        "identical_correct": 1067,
+        "identical_wrong": 73,
+        "different_all_correct": 55,
+        "different_all_parsed_incorrect": 5,
+        "parse_failure": 0,
+        "all_parse_failed": 0,
+        "ref_correct": 1125,
+        "ref_correct_some_wrong": 3,
+        "calls_1": 601,
+        "forms_4": 1199,
+        "forms_3": 1
+      },
+      "code/networkx/relabel": {
+        "n": 1200,
+        "identical_correct": 722,
+        "identical_wrong": 11,
+        "different_all_correct": 56,
+        "different_all_parsed_incorrect": 10,
+        "parse_failure": 401,
+        "all_parse_failed": 238,
+        "ref_correct": 871,
+        "ref_correct_some_wrong": 93,
+        "calls_1": 0,
+        "forms_4": 1199,
+        "forms_3": 1
+      },
+      "code/networkx/order": {
+        "n": 1200,
+        "identical_correct": 734,
+        "identical_wrong": 11,
+        "different_all_correct": 51,
+        "different_all_parsed_incorrect": 18,
+        "parse_failure": 386,
+        "all_parse_failed": 241,
+        "ref_correct": 879,
+        "ref_correct_some_wrong": 94,
+        "calls_1": 0,
+        "forms_4": 1133,
+        "forms_2": 9,
+        "forms_3": 58
+      },
+      "code/networkx/structure": {
+        "n": 1200,
+        "identical_correct": 606,
+        "identical_wrong": 6,
+        "different_all_correct": 8,
+        "different_all_parsed_incorrect": 141,
+        "parse_failure": 439,
+        "all_parse_failed": 238,
+        "ref_correct": 879,
+        "ref_correct_some_wrong": 265,
+        "calls_1": 0,
+        "forms_3": 1123,
+        "forms_2": 77
+      },
+      "code/networkx/syntax": {
+        "n": 1200,
+        "identical_correct": 556,
+        "identical_wrong": 0,
+        "different_all_correct": 3,
+        "different_all_parsed_incorrect": 12,
+        "parse_failure": 629,
+        "all_parse_failed": 230,
+        "ref_correct": 879,
+        "ref_correct_some_wrong": 320,
+        "calls_1": 0,
+        "forms_3": 1200
+      },
+      "code/native/order": {
+        "n": 1200,
+        "identical_correct": 1015,
+        "identical_wrong": 23,
+        "different_all_correct": 57,
+        "different_all_parsed_incorrect": 89,
+        "parse_failure": 16,
+        "all_parse_failed": 0,
+        "ref_correct": 1140,
+        "ref_correct_some_wrong": 68,
+        "calls_1": 0,
+        "forms_4": 1133,
+        "forms_2": 9,
+        "forms_3": 58
+      },
+      "code/native/structure": {
+        "n": 1200,
+        "identical_correct": 763,
+        "identical_wrong": 3,
+        "different_all_correct": 13,
+        "different_all_parsed_incorrect": 394,
+        "parse_failure": 27,
+        "all_parse_failed": 0,
+        "ref_correct": 1140,
+        "ref_correct_some_wrong": 364,
+        "calls_1": 0,
+        "forms_3": 1123,
+        "forms_2": 77
+      },
+      "code/native/syntax": {
+        "n": 1200,
+        "identical_correct": 1044,
+        "identical_wrong": 33,
+        "different_all_correct": 4,
+        "different_all_parsed_incorrect": 101,
+        "parse_failure": 18,
+        "all_parse_failed": 0,
+        "ref_correct": 1140,
+        "ref_correct_some_wrong": 92,
+        "calls_1": 0,
+        "forms_3": 1200
+      },
+      "code/native/relabel": {
+        "n": 1200,
+        "identical_correct": 1015,
+        "identical_wrong": 21,
+        "different_all_correct": 57,
+        "different_all_parsed_incorrect": 98,
+        "parse_failure": 9,
+        "all_parse_failed": 0,
+        "ref_correct": 1138,
+        "ref_correct_some_wrong": 66,
+        "calls_1": 0,
+        "forms_4": 1199,
+        "forms_3": 1
+      },
+      "direct/None/order": {
+        "n": 1200,
+        "identical_correct": 596,
+        "identical_wrong": 12,
+        "different_all_correct": 32,
+        "different_all_parsed_incorrect": 485,
+        "parse_failure": 75,
+        "all_parse_failed": 0,
+        "ref_correct": 854,
+        "ref_correct_some_wrong": 226,
+        "calls_1": 0,
+        "forms_4": 1133,
+        "forms_2": 9,
+        "forms_3": 58
+      },
+      "direct/None/structure": {
+        "n": 1200,
+        "identical_correct": 563,
+        "identical_wrong": 16,
+        "different_all_correct": 25,
+        "different_all_parsed_incorrect": 550,
+        "parse_failure": 46,
+        "all_parse_failed": 2,
+        "ref_correct": 854,
+        "ref_correct_some_wrong": 266,
+        "calls_1": 0,
+        "forms_3": 1123,
+        "forms_2": 77
+      },
+      "direct/None/syntax": {
+        "n": 1200,
+        "identical_correct": 578,
+        "identical_wrong": 15,
+        "different_all_correct": 18,
+        "different_all_parsed_incorrect": 563,
+        "parse_failure": 26,
+        "all_parse_failed": 0,
+        "ref_correct": 854,
+        "ref_correct_some_wrong": 258,
+        "calls_1": 0,
+        "forms_3": 1200
+      },
+      "direct/None/relabel": {
+        "n": 1200,
+        "identical_correct": 569,
+        "identical_wrong": 11,
+        "different_all_correct": 30,
+        "different_all_parsed_incorrect": 532,
+        "parse_failure": 58,
+        "all_parse_failed": 0,
+        "ref_correct": 818,
+        "ref_correct_some_wrong": 219,
+        "calls_1": 0,
+        "forms_4": 1199,
+        "forms_3": 1
+      }
+    },
+    "no_computation": {},
+    "empty_nonstandard": [],
+    "duplicate_node_sets": [
+      {
+        "record_id": "erdos-neighbor-0046::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "neighbor",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 3, 3, 4, 4, 6, 6, 7, 7, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 18, 18, 19, 19]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-neighbor-0053::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "neighbor",
+        "axis": "structure",
+        "answer_line": "[12, 12, 21, 21]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-neighbor-0086::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "neighbor",
+        "axis": "structure",
+        "answer_line": "[13, 13]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0009::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[19, 19]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0017::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0016::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[1, 1, 5, 5, 8, 8, 9, 9, 13, 13]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0018::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[1, 1]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0021::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0021::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[14, 14]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0025::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[2, 2, 6, 6]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0028::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[2, 2]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0029::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[9, 9]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0030::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[6, 6, 8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0034::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0047::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[7, 7, 16, 16, 19, 19, 20, 20, 23, 23, 28, 28]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0050::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[3, 3, 12, 12, 15, 15]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0052::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[20, 20]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0053::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[4, 4, 11, 11]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0054::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[3, 3]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0055::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[1, 1, 2, 2, 5, 5, 7, 7, 8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0062::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0062::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[8, 8]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0069::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[2, 2, 4, 4]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0077::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[4, 5, 5]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0079::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[3, 3]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0081::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[5, 5]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0083::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[3, 3, 4, 4, 5, 5, 7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0084::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[3, 3]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0086::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[1, 1]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0095::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[7, 7]",
+        "correct": false
+      },
+      {
+        "record_id": "erdos-common_neighbor-0099::structure:replicated::code::native::hf-qwen3-8b-nscale",
+        "mode": "code",
+        "task": "common_neighbor",
+        "axis": "structure",
+        "answer_line": "[3, 3, 5, 5]",
+        "correct": false
+      }
+    ],
+    "shortest_cells": {
+      "shortest_path/graph_as_code/networkx/order": {
+        "n": 100,
+        "identical": 53,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/networkx/structure": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/networkx/syntax": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/networkx/relabel": {
+        "n": 100,
+        "identical": 45,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/native/order": {
+        "n": 100,
+        "identical": 50,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/native/structure": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/native/syntax": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/graph_as_code/native/relabel": {
+        "n": 100,
+        "identical": 45,
+        "all_correct": 100
+      },
+      "shortest_path/code/networkx/relabel": {
+        "n": 100,
+        "identical": 45,
+        "all_correct": 100
+      },
+      "shortest_path/code/networkx/order": {
+        "n": 100,
+        "identical": 53,
+        "all_correct": 100
+      },
+      "shortest_path/code/networkx/structure": {
+        "n": 100,
+        "identical": 87,
+        "all_correct": 94
+      },
+      "shortest_path/code/networkx/syntax": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/code/native/order": {
+        "n": 100,
+        "identical": 50,
+        "all_correct": 100
+      },
+      "shortest_path/code/native/structure": {
+        "n": 100,
+        "identical": 91,
+        "all_correct": 96
+      },
+      "shortest_path/code/native/syntax": {
+        "n": 100,
+        "identical": 100,
+        "all_correct": 100
+      },
+      "shortest_path/code/native/relabel": {
+        "n": 100,
+        "identical": 45,
+        "all_correct": 100
+      },
+      "shortest_path/direct/None/order": {
+        "n": 100,
+        "identical": 34,
+        "all_correct": 46
+      },
+      "shortest_path/direct/None/structure": {
+        "n": 100,
+        "identical": 48,
+        "all_correct": 53
+      },
+      "shortest_path/direct/None/syntax": {
+        "n": 100,
+        "identical": 43,
+        "all_correct": 47
+      },
+      "shortest_path/direct/None/relabel": {
+        "n": 100,
+        "identical": 30,
+        "all_correct": 42
+      }
+    },
+    "m3": {
+      "shortest_path/networkx": {
+        "n": 1185,
+        "correct": 1185,
+        "unique_prompt_hashes": 271,
+        "unique_code_failures": 0
+      },
+      "shortest_path/native": {
+        "n": 1185,
+        "correct": 1185,
+        "unique_prompt_hashes": 271,
+        "unique_code_failures": 0
+      },
+      "triangles/networkx": {
+        "n": 1197,
+        "correct": 1197,
+        "unique_prompt_hashes": 30,
+        "unique_code_failures": 0
+      },
+      "triangles/native": {
+        "n": 1197,
+        "correct": 1197,
+        "unique_prompt_hashes": 30,
+        "unique_code_failures": 0
+      },
+      "degree/networkx": {
+        "n": 1190,
+        "correct": 1190,
+        "unique_prompt_hashes": 48,
+        "unique_code_failures": 0
+      },
+      "degree/native": {
+        "n": 1190,
+        "correct": 1190,
+        "unique_prompt_hashes": 48,
+        "unique_code_failures": 0
+      },
+      "edge_number/networkx": {
+        "n": 1184,
+        "correct": 1184,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 0
+      },
+      "edge_number/native": {
+        "n": 1184,
+        "correct": 1184,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 0
+      },
+      "connected_component_number/networkx": {
+        "n": 1198,
+        "correct": 0,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 1
+      },
+      "connected_component_number/native": {
+        "n": 1198,
+        "correct": 1198,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "diameter/networkx": {
+        "n": 1191,
+        "correct": 0,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 2
+      },
+      "diameter/native": {
+        "n": 1191,
+        "correct": 1191,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 0
+      },
+      "density/networkx": {
+        "n": 1185,
+        "correct": 1185,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 0
+      },
+      "density/native": {
+        "n": 1185,
+        "correct": 1185,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 0
+      },
+      "edge_existence/native": {
+        "n": 1187,
+        "correct": 1187,
+        "unique_prompt_hashes": 250,
+        "unique_code_failures": 0
+      },
+      "edge_existence/networkx": {
+        "n": 1187,
+        "correct": 1187,
+        "unique_prompt_hashes": 250,
+        "unique_code_failures": 0
+      },
+      "has_cycle/networkx": {
+        "n": 1170,
+        "correct": 0,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 2
+      },
+      "has_cycle/native": {
+        "n": 1170,
+        "correct": 1134,
+        "unique_prompt_hashes": 2,
+        "unique_code_failures": 1
+      },
+      "neighbor/networkx": {
+        "n": 1173,
+        "correct": 315,
+        "unique_prompt_hashes": 53,
+        "unique_code_failures": 33
+      },
+      "neighbor/native": {
+        "n": 1173,
+        "correct": 315,
+        "unique_prompt_hashes": 53,
+        "unique_code_failures": 33
+      },
+      "common_neighbor/networkx": {
+        "n": 1189,
+        "correct": 0,
+        "unique_prompt_hashes": 224,
+        "unique_code_failures": 224
+      },
+      "common_neighbor/native": {
+        "n": 1189,
+        "correct": 1189,
+        "unique_prompt_hashes": 224,
+        "unique_code_failures": 0
+      },
+      "bridges/networkx": {
+        "n": 1197,
+        "correct": 1197,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      },
+      "bridges/native": {
+        "n": 1197,
+        "correct": 1197,
+        "unique_prompt_hashes": 1,
+        "unique_code_failures": 0
+      }
+    }
+  },
+  "archive/hf-deepseek-v3.1-novita.tar.gz": {
+    "other": 65624
+  },
+  "archive/hf-qwen3-8b-nscale.tar.gz": {
+    "other": 65624
+  }
+}

@@ -1,0 +1,2401 @@
+{
+  "disconnected_truths_agree": 11,
+  "graphqa/hf-qwen3-8b-nscale": {
+    "stats": {
+      "all/graph_as_code/native": {
+        "n": 8925,
+        "correct": 8925,
+        "declared_true": 8925
+      },
+      "all/graph_as_code/networkx": {
+        "n": 8925,
+        "correct": 7651,
+        "declared_true": 8925,
+        "execution": 1274
+      },
+      "all/code/networkx": {
+        "n": 8925,
+        "correct": 7943,
+        "declared_true": 8786,
+        "execution": 340,
+        "declared_missing": 18,
+        "declared_false": 121,
+        "wrong_decl_correct": 74,
+        "wrong_graph_correct": 63
+      },
+      "all/code/native": {
+        "n": 8925,
+        "correct": 8301,
+        "declared_true": 8788,
+        "execution": 14,
+        "declared_missing": 16,
+        "declared_false": 121,
+        "wrong_decl_correct": 74
+      },
+      "all/direct/None": {
+        "n": 8925,
+        "correct": 7278,
+        "declared_missing": 8925
+      },
+      "degree/graph_as_code/networkx/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/networkx/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/graph_as_code/native/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/native/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/code/networkx/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 95
+      },
+      "degree/code/networkx/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 383
+      },
+      "degree/code/native/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 99
+      },
+      "degree/code/native/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 396
+      },
+      "degree/direct/None/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 96
+      },
+      "degree/direct/None/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 371
+      },
+      "degree/graph_as_code/networkx/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/graph_as_code/native/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/graph_as_code/networkx/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/native/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/direct/None/order/edge_list/False": {
+        "n": 275,
+        "correct": 252
+      },
+      "degree/graph_as_code/networkx/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/native/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/direct/None/structure/adj_list/False": {
+        "n": 100,
+        "correct": 98
+      },
+      "degree/code/networkx/order/edge_list/False": {
+        "n": 275,
+        "correct": 265
+      },
+      "degree/graph_as_code/networkx/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/graph_as_code/native/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/code/native/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/direct/None/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 284
+      },
+      "degree/code/networkx/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 279
+      },
+      "degree/code/networkx/structure/adj_list/False": {
+        "n": 100,
+        "correct": 98
+      },
+      "degree/code/native/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/code/networkx/structure/edge_list/True": {
+        "n": 100,
+        "correct": 97
+      },
+      "degree/code/native/structure/adj_list/False": {
+        "n": 100,
+        "doubled": 82,
+        "correct": 17
+      },
+      "degree/direct/None/structure/edge_list/True": {
+        "n": 100,
+        "doubled": 59,
+        "correct": 28
+      },
+      "degree/code/native/structure/edge_list/True": {
+        "n": 100,
+        "doubled": 94,
+        "correct": 5
+      },
+      "disconnected/graph_as_code/networkx/canonical": {
+        "n": 100,
+        "correct": 100,
+        "matches_unreachable": 11
+      },
+      "disconnected/graph_as_code/networkx/relabel": {
+        "n": 399,
+        "correct": 399,
+        "matches_unreachable": 32
+      },
+      "disconnected/code/networkx/canonical": {
+        "n": 100,
+        "matches_unreachable": 45,
+        "correct": 46
+      },
+      "disconnected/code/networkx/relabel": {
+        "n": 399,
+        "matches_unreachable": 201,
+        "correct": 178
+      },
+      "disconnected/graph_as_code/native/canonical": {
+        "n": 100,
+        "correct": 100,
+        "matches_unreachable": 11
+      },
+      "disconnected/graph_as_code/native/relabel": {
+        "n": 399,
+        "correct": 399,
+        "matches_unreachable": 32
+      },
+      "disconnected/code/native/canonical": {
+        "n": 100,
+        "correct": 93,
+        "matches_unreachable": 11
+      },
+      "disconnected/code/native/relabel": {
+        "n": 399,
+        "correct": 359,
+        "matches_unreachable": 30
+      },
+      "disconnected/direct/None/canonical": {
+        "n": 100,
+        "correct": 67,
+        "matches_unreachable": 23
+      },
+      "disconnected/direct/None/relabel": {
+        "n": 399,
+        "correct": 255,
+        "matches_unreachable": 66
+      },
+      "disconnected/graph_as_code/networkx/order": {
+        "n": 277,
+        "correct": 277,
+        "matches_unreachable": 27
+      },
+      "disconnected/graph_as_code/native/order": {
+        "n": 277,
+        "correct": 277,
+        "matches_unreachable": 27
+      },
+      "disconnected/graph_as_code/networkx/structure": {
+        "n": 200,
+        "correct": 200,
+        "matches_unreachable": 22
+      },
+      "disconnected/graph_as_code/native/structure": {
+        "n": 200,
+        "correct": 200,
+        "matches_unreachable": 22
+      },
+      "disconnected/code/networkx/order": {
+        "n": 277,
+        "matches_unreachable": 141,
+        "correct": 143
+      },
+      "disconnected/code/native/order": {
+        "n": 277,
+        "correct": 258,
+        "matches_unreachable": 28
+      },
+      "disconnected/graph_as_code/networkx/syntax": {
+        "n": 300,
+        "correct": 300,
+        "matches_unreachable": 33
+      },
+      "disconnected/graph_as_code/native/syntax": {
+        "n": 300,
+        "correct": 300,
+        "matches_unreachable": 33
+      },
+      "disconnected/direct/None/structure": {
+        "n": 200,
+        "correct": 157,
+        "matches_unreachable": 34
+      },
+      "disconnected/code/networkx/structure": {
+        "n": 200,
+        "matches_unreachable": 59,
+        "correct": 150
+      },
+      "disconnected/code/native/structure": {
+        "n": 200,
+        "correct": 190,
+        "matches_unreachable": 21
+      },
+      "disconnected/code/networkx/syntax": {
+        "n": 300,
+        "matches_unreachable": 57,
+        "correct": 190
+      },
+      "disconnected/direct/None/order": {
+        "n": 277,
+        "correct": 152,
+        "matches_unreachable": 71
+      },
+      "disconnected/code/native/syntax": {
+        "n": 300,
+        "correct": 273,
+        "matches_unreachable": 32
+      },
+      "disconnected/direct/None/syntax": {
+        "n": 300,
+        "correct": 167,
+        "matches_unreachable": 46
+      },
+      "response_weighted/graph_as_code/native": {
+        "n": 8925
+      },
+      "response_syntax/graph_as_code/native/False": {
+        "n": 8225
+      },
+      "response_unique/graph_as_code/native": {
+        "n": 231
+      },
+      "response_weighted/graph_as_code/networkx": {
+        "n": 8925,
+        "imports_networkx": 8925,
+        "uses_nx": 8925
+      },
+      "response_syntax/graph_as_code/networkx/False": {
+        "n": 8225,
+        "imports_networkx": 8225,
+        "uses_nx": 8225
+      },
+      "response_unique/graph_as_code/networkx": {
+        "n": 231,
+        "imports_networkx": 231,
+        "uses_nx": 231
+      },
+      "response_weighted/code/networkx": {
+        "n": 8925,
+        "imports_networkx": 7621,
+        "uses_nx": 7811,
+        "nx_without_import": 190,
+        "syntax_error": 9,
+        "no_code": 1
+      },
+      "response_syntax/code/networkx/False": {
+        "n": 8225,
+        "imports_networkx": 7297,
+        "uses_nx": 7297,
+        "syntax_error": 8,
+        "no_code": 1
+      },
+      "response_unique/code/networkx": {
+        "n": 8160,
+        "imports_networkx": 6952,
+        "uses_nx": 7142,
+        "nx_without_import": 190,
+        "syntax_error": 8,
+        "no_code": 1
+      },
+      "response_weighted/code/native": {
+        "n": 8925,
+        "no_code": 1,
+        "syntax_error": 8
+      },
+      "response_syntax/code/native/False": {
+        "n": 8225,
+        "no_code": 1,
+        "syntax_error": 7
+      },
+      "response_unique/code/native": {
+        "n": 8160,
+        "no_code": 1,
+        "syntax_error": 8
+      },
+      "response_syntax/graph_as_code/networkx/True": {
+        "n": 700,
+        "imports_networkx": 700,
+        "uses_nx": 700
+      },
+      "response_syntax/graph_as_code/native/True": {
+        "n": 700
+      },
+      "response_syntax/code/networkx/True": {
+        "n": 700,
+        "imports_networkx": 324,
+        "uses_nx": 514,
+        "nx_without_import": 190,
+        "syntax_error": 1
+      },
+      "response_syntax/code/native/True": {
+        "n": 700,
+        "syntax_error": 1
+      },
+      "exec_syntax/graph_as_code/networkx/False": {
+        "n": 8225,
+        "graph_observed": 8225,
+        "failure": 1174,
+        "nx_attrerror": 1174,
+        "any_attrerror": 1174
+      },
+      "exec_syntax/graph_as_code/native/False": {
+        "n": 8225
+      },
+      "exec_syntax/code/networkx/False": {
+        "n": 8224,
+        "graph_observed": 7297,
+        "failure": 139,
+        "nx_attrerror": 62,
+        "any_attrerror": 62
+      },
+      "exec_syntax/code/native/False": {
+        "n": 8224,
+        "failure": 12
+      },
+      "exec_syntax/graph_as_code/networkx/True": {
+        "n": 700,
+        "graph_observed": 700,
+        "failure": 100,
+        "nx_attrerror": 100,
+        "any_attrerror": 100
+      },
+      "exec_syntax/graph_as_code/native/True": {
+        "n": 700
+      },
+      "exec_syntax/code/networkx/True": {
+        "n": 700,
+        "graph_observed": 324,
+        "failure": 201,
+        "nx_nameerror": 190,
+        "any_attrerror": 9,
+        "nx_attrerror": 6
+      },
+      "exec_syntax/code/native/True": {
+        "n": 700,
+        "failure": 2
+      }
+    },
+    "exceptions": {
+      "code/networkx": {
+        "networkx.exception.NetworkXError: Edge tuple (17,) must be a 2-tuple or 3-tuple.": 2,
+        "NameError: name 'nx' is not defined": 190,
+        "AttributeError: module 'networkx.algorithms.cycles' has no attribute 'has_cycle'": 49,
+        "TypeError: 'generator' object is not subscriptable": 21,
+        "AttributeError: module 'networkx' has no attribute 'has_cycle'": 18,
+        "networkx.exception.NetworkXError: Edge tuple (10,) must be a 2-tuple or 3-tuple.": 3,
+        "SyntaxError: invalid syntax": 9,
+        "networkx.exception.NetworkXError: Node 4 is not in the graph.": 6,
+        "networkx.exception.NetworkXError: Node 1 is not in the graph.": 8,
+        "networkx.exception.NetworkXError: Node 10 is not in the graph.": 1,
+        "networkx.exception.NetworkXError: Node 5 is not in the graph.": 1,
+        "networkx.exception.NetworkXError: The node 3 is not in the graph.": 3,
+        "networkx.exception.NetworkXError: The node 6 is not in the graph.": 1,
+        "networkx.exception.NetworkXError: The node 12 is not in the graph.": 1,
+        "networkx.exception.NetworkXError: The node 5 is not in the graph.": 2,
+        "AttributeError: 'set' object has no attribute 'edges'": 3,
+        "networkx.exception.NetworkXError: Node 9 is not in the graph.": 9,
+        "networkx.exception.NetworkXError: Node 6 is not in the graph.": 1,
+        "NameError: name 'G' is not defined": 1,
+        "networkx.exception.NetworkXError: Node 2 is not in the graph.": 1,
+        "networkx.exception.NetworkXError: The node 1 is not in the graph.": 1,
+        "networkx.exception.NetworkXError: The node 0 is not in the graph.": 1,
+        "networkx.exception.NetworkXError: Node 14 is not in the graph.": 4,
+        "TypeError: DiDegreeView.__call__() got an unexpected keyword argument 'node'": 1,
+        "networkx.exception.NetworkXError: Node 11 is not in the graph.": 1,
+        "AttributeError: module 'networkx' has no attribute 'number_of_connected_components'": 1,
+        "networkx.exception.NetworkXError: Edge tuple (5,) must be a 2-tuple or 3-tuple.": 1
+      },
+      "code/native": {
+        "ValueError: not enough values to unpack (expected 2, got 1)": 5,
+        "SyntaxError: invalid syntax": 8,
+        "TypeError: list indices must be integers or slices, not tuple": 1
+      },
+      "graph_as_code/networkx": {
+        "AttributeError: module 'networkx' has no attribute 'has_cycle'": 1274
+      }
+    },
+    "examples": {
+      "degree": {
+        "record_id": "graphqa-sbm-0000-node_degree::structure:adj_list::code::native::hf-qwen3-8b-nscale",
+        "code": "nodes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]\nedges = [\n    (0, 1), (0, 6),\n    (1, 0), (1, 2), (1, 11), (1, 14),\n    (2, 1),\n    (3, 4), (3, 12), (3, 15),\n    (4, 3), (4, 5), (4, 7), (4, 11), (4, 15),\n    (5, 4), (5, 8),\n    (6, 0), (6, 7),\n    (7, 4), (7, 6), (7, 8),\n    (8, 5), (8, 7), (8, 9),\n    (9, 8), (9, 10), (9, 11),\n    (10, 9), (10, 11), (10, 12),\n    (11, 1), (11, 4), (11, 9), (11, 10), (11, 12), (11, 16),\n    (12, 3), (12, 10), (12, 11), (12, 13), (12, 14),\n    (13, 12), (13, 14),\n    (14, 1), (14, 12), (14, 13), (14, 16),\n    (15, 3), (15, 4),\n    (16, 11), (16, 14),\n]\n\n# Create a dictionary to store the degree of each node\ndegree = {node: 0 for node in nodes}\n\n# Count the degree for each node\nfor u, v in edges:\n    degree[u] += 1\n    degree[v] += 1\n\nans = degree[9]"
+      },
+      "disconnected": {
+        "record_id": "graphqa-sfn-0001-disconnected_nodes::canonical::code::native::hf-qwen3-8b-nscale",
+        "code": "nodes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nedges = [(0, 1), (0, 2), (0, 3), (0, 5), (1, 2), (1, 3), (1, 4), (1, 5), (1, 7), (2, 3), (2, 6), (2, 7), (2, 8), (2, 9), (4, 10)]\n\n# Create a set of all nodes\nall_nodes = set(nodes)\n\n# Create a set of nodes connected to node 9\nconnected_to_9 = set()\nfor u, v in edges:\n    if u == 9 or v == 9:\n        connected_to_9.add(u)\n        connected_to_9.add(v)\n\n# Remove node 9 itself from the connected set\nconnected_to_9.discard(9)\n\n# Compute the nodes not connected to node 9\nnot_connected = sorted(all_nodes - connected_to_9)\n\nans = not_connected"
+      }
+    }
+  },
+  "graphqa/hf-deepseek-v3.1-novita": {
+    "stats": {
+      "all/graph_as_code/native": {
+        "n": 8925,
+        "correct": 7786,
+        "declared_true": 8925
+      },
+      "all/graph_as_code/networkx": {
+        "n": 8925,
+        "correct": 7786,
+        "declared_true": 8925
+      },
+      "all/code/networkx": {
+        "n": 8925,
+        "correct": 7679,
+        "declared_true": 8911,
+        "declared_missing": 9,
+        "declared_false": 5,
+        "wrong_decl_correct": 4,
+        "wrong_graph_correct": 4,
+        "execution": 13
+      },
+      "all/code/native": {
+        "n": 8925,
+        "correct": 7541,
+        "declared_true": 8918,
+        "declared_missing": 1,
+        "declared_false": 6,
+        "wrong_decl_correct": 6
+      },
+      "all/direct/None": {
+        "n": 8925,
+        "correct": 7252,
+        "declared_missing": 8925
+      },
+      "degree/graph_as_code/networkx/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/networkx/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/graph_as_code/native/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/native/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/code/networkx/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/code/networkx/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/graph_as_code/networkx/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/graph_as_code/native/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/code/native/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/code/native/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/direct/None/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/direct/None/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 399
+      },
+      "degree/graph_as_code/networkx/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/native/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/networkx/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/native/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/networkx/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/graph_as_code/native/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/direct/None/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/direct/None/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/direct/None/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 299
+      },
+      "degree/direct/None/order/edge_list/False": {
+        "n": 275,
+        "correct": 272
+      },
+      "degree/code/networkx/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/code/native/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/code/networkx/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 299
+      },
+      "degree/code/native/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/code/networkx/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/code/native/structure/edge_list/True": {
+        "n": 100,
+        "doubled": 81,
+        "correct": 19
+      },
+      "degree/code/native/structure/adj_list/False": {
+        "n": 100,
+        "doubled": 66,
+        "correct": 34
+      },
+      "degree/code/networkx/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "disconnected/graph_as_code/networkx/canonical": {
+        "n": 100,
+        "matches_unreachable": 100,
+        "correct": 11
+      },
+      "disconnected/graph_as_code/networkx/relabel": {
+        "n": 399,
+        "matches_unreachable": 373,
+        "correct": 44
+      },
+      "disconnected/graph_as_code/native/canonical": {
+        "n": 100,
+        "matches_unreachable": 100,
+        "correct": 11
+      },
+      "disconnected/graph_as_code/native/relabel": {
+        "n": 399,
+        "matches_unreachable": 373,
+        "correct": 44
+      },
+      "disconnected/graph_as_code/networkx/order": {
+        "n": 277,
+        "matches_unreachable": 277,
+        "correct": 27
+      },
+      "disconnected/graph_as_code/native/order": {
+        "n": 277,
+        "matches_unreachable": 277,
+        "correct": 27
+      },
+      "disconnected/code/networkx/canonical": {
+        "n": 100,
+        "matches_unreachable": 99,
+        "correct": 12
+      },
+      "disconnected/code/networkx/relabel": {
+        "n": 399,
+        "matches_unreachable": 372,
+        "correct": 45
+      },
+      "disconnected/graph_as_code/networkx/structure": {
+        "n": 200,
+        "matches_unreachable": 200,
+        "correct": 22
+      },
+      "disconnected/graph_as_code/native/structure": {
+        "n": 200,
+        "matches_unreachable": 200,
+        "correct": 22
+      },
+      "disconnected/code/native/canonical": {
+        "n": 100,
+        "matches_unreachable": 100,
+        "correct": 11
+      },
+      "disconnected/code/native/relabel": {
+        "n": 399,
+        "matches_unreachable": 373,
+        "correct": 44
+      },
+      "disconnected/graph_as_code/networkx/syntax": {
+        "n": 300,
+        "matches_unreachable": 300,
+        "correct": 33
+      },
+      "disconnected/graph_as_code/native/syntax": {
+        "n": 300,
+        "matches_unreachable": 300,
+        "correct": 33
+      },
+      "disconnected/code/networkx/order": {
+        "n": 277,
+        "matches_unreachable": 276,
+        "correct": 28
+      },
+      "disconnected/code/native/order": {
+        "n": 277,
+        "matches_unreachable": 277,
+        "correct": 27
+      },
+      "disconnected/code/networkx/structure": {
+        "n": 200,
+        "matches_unreachable": 200,
+        "correct": 22
+      },
+      "disconnected/code/networkx/syntax": {
+        "n": 300,
+        "matches_unreachable": 300,
+        "correct": 33
+      },
+      "disconnected/code/native/syntax": {
+        "n": 300,
+        "matches_unreachable": 300,
+        "correct": 33
+      },
+      "disconnected/code/native/structure": {
+        "n": 200,
+        "matches_unreachable": 198,
+        "correct": 24
+      },
+      "disconnected/direct/None/structure": {
+        "n": 200,
+        "correct": 122,
+        "matches_unreachable": 100
+      },
+      "disconnected/direct/None/canonical": {
+        "n": 100,
+        "matches_unreachable": 79,
+        "correct": 32
+      },
+      "disconnected/direct/None/relabel": {
+        "n": 399,
+        "matches_unreachable": 314,
+        "correct": 105
+      },
+      "disconnected/direct/None/order": {
+        "n": 277,
+        "matches_unreachable": 243,
+        "correct": 61
+      },
+      "disconnected/direct/None/syntax": {
+        "n": 300,
+        "matches_unreachable": 230,
+        "correct": 102
+      },
+      "response_weighted/graph_as_code/native": {
+        "n": 8925
+      },
+      "response_syntax/graph_as_code/native/False": {
+        "n": 8225
+      },
+      "response_unique/graph_as_code/native": {
+        "n": 231
+      },
+      "response_weighted/graph_as_code/networkx": {
+        "n": 8925,
+        "imports_networkx": 8925,
+        "uses_nx": 8925
+      },
+      "response_syntax/graph_as_code/networkx/False": {
+        "n": 8225,
+        "imports_networkx": 8225,
+        "uses_nx": 8225
+      },
+      "response_unique/graph_as_code/networkx": {
+        "n": 231,
+        "imports_networkx": 231,
+        "uses_nx": 231
+      },
+      "response_weighted/code/networkx": {
+        "n": 8925,
+        "imports_networkx": 8593,
+        "uses_nx": 8597,
+        "nx_without_import": 4
+      },
+      "response_syntax/code/networkx/False": {
+        "n": 8225,
+        "imports_networkx": 7908,
+        "uses_nx": 7908
+      },
+      "response_unique/code/networkx": {
+        "n": 8160,
+        "imports_networkx": 7859,
+        "uses_nx": 7863,
+        "nx_without_import": 4
+      },
+      "response_weighted/code/native": {
+        "n": 8925
+      },
+      "response_syntax/code/native/False": {
+        "n": 8225
+      },
+      "response_unique/code/native": {
+        "n": 8160
+      },
+      "response_syntax/graph_as_code/networkx/True": {
+        "n": 700,
+        "imports_networkx": 700,
+        "uses_nx": 700
+      },
+      "response_syntax/graph_as_code/native/True": {
+        "n": 700
+      },
+      "response_syntax/code/native/True": {
+        "n": 700
+      },
+      "response_syntax/code/networkx/True": {
+        "n": 700,
+        "imports_networkx": 685,
+        "uses_nx": 689,
+        "nx_without_import": 4
+      },
+      "exec_syntax/graph_as_code/networkx/False": {
+        "n": 8225,
+        "graph_observed": 8225
+      },
+      "exec_syntax/graph_as_code/native/False": {
+        "n": 8225
+      },
+      "exec_syntax/code/networkx/False": {
+        "n": 8225,
+        "graph_observed": 7900,
+        "failure": 8
+      },
+      "exec_syntax/graph_as_code/networkx/True": {
+        "n": 700,
+        "graph_observed": 700
+      },
+      "exec_syntax/graph_as_code/native/True": {
+        "n": 700
+      },
+      "exec_syntax/code/native/False": {
+        "n": 8225
+      },
+      "exec_syntax/code/native/True": {
+        "n": 700
+      },
+      "exec_syntax/code/networkx/True": {
+        "n": 700,
+        "graph_observed": 685,
+        "failure": 5,
+        "nx_nameerror": 4
+      }
+    },
+    "exceptions": {
+      "code/networkx": {
+        "SyntaxError: no binding for nonlocal 'has_cycle' found": 6,
+        "NameError: name 'nx' is not defined": 4,
+        "TypeError: number_of_nodes() missing 1 required positional argument: 'G'": 1,
+        "SyntaxError: no binding for nonlocal 'cycle_found' found": 2
+      }
+    },
+    "examples": {
+      "degree": {
+        "record_id": "graphqa-sbm-0000-node_degree::structure:replicated::code::native::hf-deepseek-v3.1-novita",
+        "code": "nodes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]\nedges = [(0, 1), (1, 0), (0, 6), (6, 0), (1, 2), (2, 1), (1, 11), (11, 1), (1, 14), (14, 1), (3, 4), (4, 3), (3, 12), (12, 3), (3, 15), (15, 3), (4, 5), (5, 4), (4, 7), (7, 4), (4, 11), (11, 4), (4, 15), (15, 4), (5, 8), (8, 5), (6, 7), (7, 6), (7, 8), (8, 7), (8, 9), (9, 8), (9, 10), (10, 9), (9, 11), (11, 9), (10, 11), (11, 10), (10, 12), (12, 10), (11, 12), (12, 11), (11, 16), (16, 11), (12, 13), (13, 12), (12, 14), (14, 12), (13, 14), (14, 13), (14, 16), (16, 14)]\n\n# Count edges incident to node 9\ndegree = 0\nfor u, v in edges:\n    if u == 9 or v == 9:\n        degree += 1\n\nans = degree"
+      },
+      "disconnected": {
+        "record_id": "graphqa-sbm-0000-disconnected_nodes::canonical::code::native::hf-deepseek-v3.1-novita",
+        "code": "nodes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]\nedges = [(0, 1), (0, 6), (1, 2), (1, 11), (1, 14), (3, 4), (3, 12), (3, 15), (4, 5), (4, 7), (4, 11), (4, 15), (5, 8), (6, 7), (7, 8), (8, 9), (9, 10), (9, 11), (10, 11), (10, 12), (11, 12), (11, 16), (12, 13), (12, 14), (13, 14), (14, 16)]\n\n# Build adjacency list\nadj = {node: [] for node in nodes}\nfor u, v in edges:\n    adj[u].append(v)\n    adj[v].append(u)\n\n# Perform BFS/DFS from node 11 to find all connected nodes\nvisited = set()\nstack = [11]\nwhile stack:\n    current = stack.pop()\n    if current not in visited:\n        visited.add(current)\n        for neighbor in adj[current]:\n            if neighbor not in visited:\n                stack.append(neighbor)\n\n# Nodes not connected to node 11 (excluding node 11 itself)\nans = sorted([node for node in nodes if node not in visited and node != 11])"
+      }
+    }
+  },
+  "graphqa/hf-gemma-4-31b": {
+    "stats": {
+      "all/graph_as_code/native": {
+        "n": 8925,
+        "correct": 8654,
+        "declared_true": 8923,
+        "execution": 2,
+        "declared_missing": 2
+      },
+      "all/graph_as_code/networkx": {
+        "n": 8925,
+        "correct": 8924,
+        "declared_true": 8924,
+        "execution": 1,
+        "declared_missing": 1
+      },
+      "degree/graph_as_code/networkx/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 399
+      },
+      "degree/graph_as_code/native/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/native/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 399
+      },
+      "degree/graph_as_code/native/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/graph_as_code/native/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/native/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/native/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/graph_as_code/networkx/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/networkx/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/graph_as_code/networkx/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/networkx/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/networkx/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "all/code/native": {
+        "n": 8925,
+        "correct": 8678,
+        "declared_true": 8870,
+        "declared_missing": 48,
+        "declared_false": 7,
+        "wrong_decl_correct": 7
+      },
+      "degree/code/native/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/code/native/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "all/code/networkx": {
+        "n": 8925,
+        "correct": 8660,
+        "declared_true": 8890,
+        "declared_missing": 31,
+        "execution": 2,
+        "declared_false": 4,
+        "wrong_decl_correct": 4,
+        "wrong_graph_correct": 2
+      },
+      "all/direct/None": {
+        "n": 8925,
+        "correct": 8110,
+        "declared_missing": 8925
+      },
+      "degree/code/native/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/direct/None/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/code/networkx/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/code/networkx/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/code/native/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/code/networkx/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/direct/None/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/code/networkx/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/code/native/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/code/networkx/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/code/networkx/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/code/native/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/direct/None/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/direct/None/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/direct/None/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/direct/None/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "disconnected/graph_as_code/networkx/relabel": {
+        "n": 399,
+        "correct": 399,
+        "matches_unreachable": 32
+      },
+      "disconnected/graph_as_code/native/canonical": {
+        "n": 100,
+        "correct": 78,
+        "matches_unreachable": 33
+      },
+      "disconnected/graph_as_code/native/relabel": {
+        "n": 399,
+        "correct": 320,
+        "matches_unreachable": 106
+      },
+      "disconnected/graph_as_code/native/order": {
+        "n": 277,
+        "correct": 219,
+        "matches_unreachable": 85
+      },
+      "disconnected/graph_as_code/native/structure": {
+        "n": 200,
+        "correct": 156,
+        "matches_unreachable": 66
+      },
+      "disconnected/graph_as_code/native/syntax": {
+        "n": 300,
+        "correct": 234,
+        "matches_unreachable": 99
+      },
+      "disconnected/graph_as_code/networkx/canonical": {
+        "n": 100,
+        "correct": 100,
+        "matches_unreachable": 11
+      },
+      "disconnected/graph_as_code/networkx/order": {
+        "n": 277,
+        "correct": 277,
+        "matches_unreachable": 27
+      },
+      "disconnected/graph_as_code/networkx/structure": {
+        "n": 200,
+        "correct": 200,
+        "matches_unreachable": 22
+      },
+      "disconnected/graph_as_code/networkx/syntax": {
+        "n": 300,
+        "correct": 300,
+        "matches_unreachable": 33
+      },
+      "disconnected/code/native/order": {
+        "n": 277,
+        "correct": 228,
+        "matches_unreachable": 76
+      },
+      "disconnected/code/networkx/relabel": {
+        "n": 399,
+        "correct": 315,
+        "matches_unreachable": 110
+      },
+      "disconnected/code/native/relabel": {
+        "n": 399,
+        "correct": 323,
+        "matches_unreachable": 102
+      },
+      "disconnected/code/networkx/syntax": {
+        "n": 300,
+        "correct": 227,
+        "matches_unreachable": 106
+      },
+      "disconnected/code/networkx/canonical": {
+        "n": 100,
+        "matches_unreachable": 29,
+        "correct": 82
+      },
+      "disconnected/code/native/syntax": {
+        "n": 300,
+        "correct": 236,
+        "matches_unreachable": 97
+      },
+      "disconnected/code/networkx/structure": {
+        "n": 200,
+        "correct": 160,
+        "matches_unreachable": 62
+      },
+      "disconnected/code/networkx/order": {
+        "n": 277,
+        "correct": 229,
+        "matches_unreachable": 75
+      },
+      "disconnected/code/native/canonical": {
+        "n": 100,
+        "matches_unreachable": 27,
+        "correct": 84
+      },
+      "disconnected/direct/None/order": {
+        "n": 277,
+        "matches_unreachable": 116,
+        "correct": 186
+      },
+      "disconnected/direct/None/canonical": {
+        "n": 100,
+        "matches_unreachable": 39,
+        "correct": 72
+      },
+      "disconnected/direct/None/relabel": {
+        "n": 399,
+        "matches_unreachable": 168,
+        "correct": 256
+      },
+      "disconnected/code/native/structure": {
+        "n": 200,
+        "correct": 158,
+        "matches_unreachable": 64
+      },
+      "disconnected/direct/None/structure": {
+        "n": 200,
+        "correct": 175,
+        "matches_unreachable": 47
+      },
+      "disconnected/direct/None/syntax": {
+        "n": 300,
+        "correct": 245,
+        "matches_unreachable": 88
+      },
+      "response_weighted/code/networkx": {
+        "n": 8925,
+        "imports_networkx": 8761,
+        "uses_nx": 8738
+      },
+      "response_syntax/code/networkx/False": {
+        "n": 8225,
+        "imports_networkx": 8061,
+        "uses_nx": 8038
+      },
+      "response_unique/code/networkx": {
+        "n": 8160,
+        "imports_networkx": 8013,
+        "uses_nx": 7990
+      },
+      "response_weighted/graph_as_code/native": {
+        "n": 8925
+      },
+      "response_syntax/graph_as_code/native/False": {
+        "n": 8225
+      },
+      "response_unique/graph_as_code/native": {
+        "n": 231
+      },
+      "response_weighted/graph_as_code/networkx": {
+        "n": 8925,
+        "imports_networkx": 8925,
+        "uses_nx": 8925
+      },
+      "response_syntax/graph_as_code/networkx/False": {
+        "n": 8225,
+        "imports_networkx": 8225,
+        "uses_nx": 8225
+      },
+      "response_unique/graph_as_code/networkx": {
+        "n": 231,
+        "imports_networkx": 231,
+        "uses_nx": 231
+      },
+      "response_weighted/code/native": {
+        "n": 8925
+      },
+      "response_syntax/code/native/False": {
+        "n": 8225
+      },
+      "response_unique/code/native": {
+        "n": 8160
+      },
+      "response_syntax/code/networkx/True": {
+        "n": 700,
+        "imports_networkx": 700,
+        "uses_nx": 700
+      },
+      "response_syntax/graph_as_code/native/True": {
+        "n": 700
+      },
+      "response_syntax/code/native/True": {
+        "n": 700
+      },
+      "response_syntax/graph_as_code/networkx/True": {
+        "n": 700,
+        "imports_networkx": 700,
+        "uses_nx": 700
+      },
+      "exec_syntax/code/native/False": {
+        "n": 8225
+      },
+      "exec_syntax/graph_as_code/native/False": {
+        "n": 8225,
+        "failure": 2
+      },
+      "exec_syntax/code/networkx/False": {
+        "n": 8225,
+        "graph_observed": 8038,
+        "failure": 2
+      },
+      "exec_syntax/graph_as_code/networkx/False": {
+        "n": 8225,
+        "graph_observed": 8225,
+        "failure": 1
+      },
+      "exec_syntax/graph_as_code/native/True": {
+        "n": 700
+      },
+      "exec_syntax/graph_as_code/networkx/True": {
+        "n": 700,
+        "graph_observed": 700
+      },
+      "exec_syntax/code/networkx/True": {
+        "n": 700,
+        "graph_observed": 700
+      },
+      "exec_syntax/code/native/True": {
+        "n": 700
+      }
+    },
+    "exceptions": {
+      "code/networkx": {
+        "": 2
+      },
+      "graph_as_code/networkx": {
+        "": 1
+      },
+      "graph_as_code/native": {
+        "": 2
+      }
+    },
+    "examples": {
+      "disconnected": {
+        "record_id": "graphqa-sbm-0000-disconnected_nodes::canonical::code::native::hf-gemma-4-31b",
+        "code": "nodes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]\nedges = [(0, 1), (0, 6), (1, 2), (1, 11), (1, 14), (3, 4), (3, 12), (3, 15), (4, 5), (4, 7), (4, 11), (4, 15), (5, 8), (6, 7), (7, 8), (8, 9), (9, 10), (9, 11), (10, 11), (10, 12), (11, 12), (11, 16), (12, 13), (12, 14), (13, 14), (14, 16)]\n\n# Build adjacency list\nadj = {node: [] for node in nodes}\nfor u, v in edges:\n    adj[u].append(v)\n    adj[v].append(u)\n\n# Find all nodes connected to node 11 using BFS\nstart_node = 11\nvisited = {start_node}\nqueue = [start_node]\n\nwhile queue:\n    current = queue.pop(0)\n    for neighbor in adj[current]:\n        if neighbor not in visited:\n            visited.add(neighbor)\n            queue.append(neighbor)\n\n# Find nodes not in the visited set, excluding the start_node itself\nans = sorted([node for node in nodes if node not in visited])"
+      }
+    }
+  },
+  "graphqa/hf-deepseek-v4-flash": {
+    "stats": {
+      "all/graph_as_code/networkx": {
+        "n": 8925,
+        "correct": 6692,
+        "declared_true": 8917,
+        "execution": 8,
+        "declared_missing": 8
+      },
+      "all/graph_as_code/native": {
+        "n": 8925,
+        "correct": 7786,
+        "declared_true": 8925
+      },
+      "all/code/native": {
+        "n": 8925,
+        "correct": 7004,
+        "declared_true": 8912,
+        "declared_false": 13,
+        "wrong_decl_correct": 10
+      },
+      "all/direct/None": {
+        "n": 8925,
+        "correct": 7476,
+        "declared_missing": 8925
+      },
+      "all/code/networkx": {
+        "n": 8925,
+        "correct": 7426,
+        "declared_true": 8902,
+        "declared_false": 23,
+        "wrong_decl_correct": 13,
+        "wrong_graph_correct": 6,
+        "execution": 1
+      },
+      "degree/direct/None/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/direct/None/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 387
+      },
+      "degree/graph_as_code/networkx/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 99
+      },
+      "degree/graph_as_code/networkx/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 399
+      },
+      "degree/graph_as_code/networkx/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/code/networkx/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/code/networkx/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/graph_as_code/networkx/structure/adj_list/False": {
+        "n": 100,
+        "correct": 99
+      },
+      "degree/graph_as_code/native/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/code/native/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/native/canonical/edge_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/code/native/relabel/edge_list/False": {
+        "n": 400,
+        "correct": 400
+      },
+      "degree/graph_as_code/networkx/structure/edge_list/True": {
+        "n": 100,
+        "correct": 99
+      },
+      "degree/graph_as_code/native/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/graph_as_code/native/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/native/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/graph_as_code/networkx/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 297
+      },
+      "degree/graph_as_code/native/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/direct/None/order/edge_list/False": {
+        "n": 275,
+        "correct": 267
+      },
+      "degree/direct/None/structure/adj_list/False": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/direct/None/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 294
+      },
+      "degree/direct/None/structure/edge_list/True": {
+        "n": 100,
+        "correct": 100
+      },
+      "degree/code/networkx/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/code/native/order/edge_list/False": {
+        "n": 275,
+        "correct": 275
+      },
+      "degree/code/native/structure/adj_list/False": {
+        "n": 100,
+        "correct": 83,
+        "doubled": 16
+      },
+      "degree/code/native/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/code/networkx/syntax/edge_list/False": {
+        "n": 300,
+        "correct": 300
+      },
+      "degree/code/networkx/structure/adj_list/False": {
+        "n": 100,
+        "correct": 86,
+        "doubled": 9
+      },
+      "degree/code/native/structure/edge_list/True": {
+        "n": 100,
+        "correct": 65,
+        "doubled": 35
+      },
+      "degree/code/networkx/structure/edge_list/True": {
+        "n": 100,
+        "correct": 97,
+        "doubled": 3
+      },
+      "disconnected/graph_as_code/networkx/canonical": {
+        "n": 100,
+        "matches_unreachable": 100,
+        "correct": 11
+      },
+      "disconnected/graph_as_code/networkx/relabel": {
+        "n": 399,
+        "matches_unreachable": 373,
+        "correct": 44
+      },
+      "disconnected/graph_as_code/native/canonical": {
+        "n": 100,
+        "matches_unreachable": 100,
+        "correct": 11
+      },
+      "disconnected/graph_as_code/native/relabel": {
+        "n": 399,
+        "matches_unreachable": 373,
+        "correct": 44
+      },
+      "disconnected/graph_as_code/networkx/order": {
+        "n": 277,
+        "matches_unreachable": 277,
+        "correct": 27
+      },
+      "disconnected/graph_as_code/native/order": {
+        "n": 277,
+        "matches_unreachable": 277,
+        "correct": 27
+      },
+      "disconnected/code/networkx/canonical": {
+        "n": 100,
+        "matches_unreachable": 100,
+        "correct": 11
+      },
+      "disconnected/code/networkx/relabel": {
+        "n": 399,
+        "matches_unreachable": 373,
+        "correct": 44
+      },
+      "disconnected/code/native/canonical": {
+        "n": 100,
+        "matches_unreachable": 100,
+        "correct": 11
+      },
+      "disconnected/graph_as_code/networkx/structure": {
+        "n": 200,
+        "matches_unreachable": 200,
+        "correct": 22
+      },
+      "disconnected/graph_as_code/native/structure": {
+        "n": 200,
+        "matches_unreachable": 200,
+        "correct": 22
+      },
+      "disconnected/code/native/relabel": {
+        "n": 399,
+        "matches_unreachable": 373,
+        "correct": 44
+      },
+      "disconnected/graph_as_code/networkx/syntax": {
+        "n": 300,
+        "matches_unreachable": 300,
+        "correct": 33
+      },
+      "disconnected/graph_as_code/native/syntax": {
+        "n": 300,
+        "matches_unreachable": 300,
+        "correct": 33
+      },
+      "disconnected/code/networkx/order": {
+        "n": 277,
+        "matches_unreachable": 277,
+        "correct": 27
+      },
+      "disconnected/code/native/order": {
+        "n": 277,
+        "matches_unreachable": 277,
+        "correct": 27
+      },
+      "disconnected/direct/None/canonical": {
+        "n": 100,
+        "matches_unreachable": 84,
+        "correct": 27
+      },
+      "disconnected/direct/None/relabel": {
+        "n": 399,
+        "matches_unreachable": 310,
+        "correct": 97
+      },
+      "disconnected/code/native/structure": {
+        "n": 200,
+        "matches_unreachable": 200,
+        "correct": 22
+      },
+      "disconnected/code/networkx/structure": {
+        "n": 200,
+        "matches_unreachable": 199,
+        "correct": 23
+      },
+      "disconnected/code/native/syntax": {
+        "n": 300,
+        "matches_unreachable": 300,
+        "correct": 33
+      },
+      "disconnected/direct/None/structure": {
+        "n": 200,
+        "matches_unreachable": 105,
+        "correct": 114
+      },
+      "disconnected/code/networkx/syntax": {
+        "n": 300,
+        "matches_unreachable": 300,
+        "correct": 33
+      },
+      "disconnected/direct/None/order": {
+        "n": 277,
+        "matches_unreachable": 243,
+        "correct": 56
+      },
+      "disconnected/direct/None/syntax": {
+        "n": 300,
+        "matches_unreachable": 227,
+        "correct": 99
+      },
+      "response_weighted/code/networkx": {
+        "n": 8925,
+        "imports_networkx": 4133,
+        "uses_nx": 4134,
+        "nx_without_import": 1
+      },
+      "response_syntax/code/networkx/False": {
+        "n": 8225,
+        "imports_networkx": 3720,
+        "uses_nx": 3720
+      },
+      "response_unique/code/networkx": {
+        "n": 8160,
+        "imports_networkx": 3790,
+        "uses_nx": 3791,
+        "nx_without_import": 1
+      },
+      "response_weighted/graph_as_code/native": {
+        "n": 8925
+      },
+      "response_syntax/graph_as_code/native/False": {
+        "n": 8225
+      },
+      "response_unique/graph_as_code/native": {
+        "n": 231
+      },
+      "response_weighted/code/native": {
+        "n": 8925
+      },
+      "response_syntax/code/native/False": {
+        "n": 8225
+      },
+      "response_unique/code/native": {
+        "n": 8160
+      },
+      "response_weighted/graph_as_code/networkx": {
+        "n": 8925,
+        "imports_networkx": 6349,
+        "uses_nx": 6349
+      },
+      "response_syntax/graph_as_code/networkx/False": {
+        "n": 8225,
+        "imports_networkx": 5851,
+        "uses_nx": 5851
+      },
+      "response_unique/graph_as_code/networkx": {
+        "n": 231,
+        "imports_networkx": 228,
+        "uses_nx": 228
+      },
+      "response_syntax/graph_as_code/networkx/True": {
+        "n": 700,
+        "imports_networkx": 498,
+        "uses_nx": 498
+      },
+      "response_syntax/code/networkx/True": {
+        "n": 700,
+        "imports_networkx": 413,
+        "uses_nx": 414,
+        "nx_without_import": 1
+      },
+      "response_syntax/graph_as_code/native/True": {
+        "n": 700
+      },
+      "response_syntax/code/native/True": {
+        "n": 700
+      },
+      "exec_syntax/code/native/False": {
+        "n": 8225
+      },
+      "exec_syntax/code/networkx/False": {
+        "n": 8225,
+        "graph_observed": 3720
+      },
+      "exec_syntax/graph_as_code/native/False": {
+        "n": 8225
+      },
+      "exec_syntax/graph_as_code/networkx/False": {
+        "n": 8225,
+        "graph_observed": 5851,
+        "failure": 7
+      },
+      "exec_syntax/graph_as_code/networkx/True": {
+        "n": 700,
+        "graph_observed": 498,
+        "failure": 1
+      },
+      "exec_syntax/code/networkx/True": {
+        "n": 700,
+        "graph_observed": 413,
+        "failure": 1,
+        "nx_nameerror": 1
+      },
+      "exec_syntax/graph_as_code/native/True": {
+        "n": 700
+      },
+      "exec_syntax/code/native/True": {
+        "n": 700
+      }
+    },
+    "exceptions": {
+      "graph_as_code/networkx": {
+        "": 8
+      },
+      "code/networkx": {
+        "NameError: name 'nx' is not defined": 1
+      }
+    },
+    "examples": {
+      "disconnected": {
+        "record_id": "graphqa-sbm-0000-disconnected_nodes::canonical::code::native::hf-deepseek-v4-flash",
+        "code": "nodes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]\nedges = [(0, 1), (0, 6), (1, 2), (1, 11), (1, 14), (3, 4), (3, 12), (3, 15), (4, 5), (4, 7), (4, 11), (4, 15), (5, 8), (6, 7), (7, 8), (8, 9), (9, 10), (9, 11), (10, 11), (10, 12), (11, 12), (11, 16), (12, 13), (12, 14), (13, 14), (14, 16)]\n\n# Build adjacency list\nadj = {node: [] for node in nodes}\nfor u, v in edges:\n    adj[u].append(v)\n    adj[v].append(u)\n\n# BFS from node 11 to find all connected nodes\nstart = 11\nvisited = set()\nqueue = [start]\nvisited.add(start)\nwhile queue:\n    current = queue.pop(0)\n    for neighbor in adj[current]:\n        if neighbor not in visited:\n            visited.add(neighbor)\n            queue.append(neighbor)\n\n# Nodes not connected to node 11 (excluding node 11 itself)\nans = sorted([node for node in nodes if node != start and node not in visited])"
+      },
+      "degree": {
+        "record_id": "graphqa-star-0002-node_degree::structure:replicated::code::native::hf-deepseek-v4-flash",
+        "code": "nodes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]\nedges = [(0, 1), (1, 0), (0, 2), (2, 0), (0, 3), (3, 0), (0, 4), (4, 0), (0, 5), (5, 0), (0, 6), (6, 0), (0, 7), (7, 0), (0, 8), (8, 0), (0, 9), (9, 0), (0, 10), (10, 0), (0, 11), (11, 0), (0, 12), (12, 0), (0, 13), (13, 0)]\n\n# Compute degree of node 1\ntarget_node = 1\ndegree = 0\nfor u, v in edges:\n    if u == target_node or v == target_node:\n        degree += 1\n\nans = degree"
+      }
+    }
+  },
+  "erdos/hf-qwen3-8b-nscale": {
+    "stats": {
+      "all/graph_as_code/networkx": {
+        "n": 14246,
+        "correct": 8640,
+        "declared_true": 14246,
+        "execution": 4748
+      },
+      "all/graph_as_code/native": {
+        "n": 14246,
+        "correct": 13352,
+        "declared_true": 14246
+      },
+      "all/code/networkx": {
+        "n": 14246,
+        "correct": 9837,
+        "declared_true": 13956,
+        "declared_false": 258,
+        "wrong_decl_correct": 114,
+        "wrong_graph_correct": 85,
+        "execution": 3998,
+        "declared_missing": 32
+      },
+      "all/code/native": {
+        "n": 14246,
+        "correct": 12996,
+        "declared_true": 13987,
+        "declared_false": 237,
+        "wrong_decl_correct": 138,
+        "execution": 59,
+        "declared_missing": 22
+      },
+      "all/direct/None": {
+        "n": 14246,
+        "declared_missing": 14246,
+        "correct": 9224
+      },
+      "response_weighted/graph_as_code/networkx": {
+        "n": 14246,
+        "imports_networkx": 14202,
+        "uses_nx": 14202,
+        "syntax_error": 44
+      },
+      "response_syntax/graph_as_code/networkx/False": {
+        "n": 13046,
+        "imports_networkx": 13006,
+        "uses_nx": 13006,
+        "syntax_error": 40
+      },
+      "response_unique/graph_as_code/networkx": {
+        "n": 886,
+        "imports_networkx": 885,
+        "uses_nx": 885,
+        "syntax_error": 1
+      },
+      "response_weighted/graph_as_code/native": {
+        "n": 14246
+      },
+      "response_syntax/graph_as_code/native/False": {
+        "n": 13046
+      },
+      "response_unique/graph_as_code/native": {
+        "n": 886
+      },
+      "response_weighted/code/networkx": {
+        "n": 14246,
+        "imports_networkx": 12735,
+        "uses_nx": 12955,
+        "no_code": 12,
+        "syntax_error": 13,
+        "nx_without_import": 220
+      },
+      "response_syntax/code/networkx/False": {
+        "n": 13046,
+        "imports_networkx": 11952,
+        "uses_nx": 11952,
+        "no_code": 12,
+        "syntax_error": 11
+      },
+      "response_unique/code/networkx": {
+        "n": 12970,
+        "imports_networkx": 11560,
+        "uses_nx": 11780,
+        "no_code": 12,
+        "syntax_error": 11,
+        "nx_without_import": 220
+      },
+      "response_weighted/code/native": {
+        "n": 14246,
+        "no_code": 15
+      },
+      "response_syntax/code/native/False": {
+        "n": 13046,
+        "no_code": 15
+      },
+      "response_unique/code/native": {
+        "n": 12970,
+        "no_code": 15
+      },
+      "response_syntax/graph_as_code/networkx/True": {
+        "n": 1200,
+        "imports_networkx": 1196,
+        "uses_nx": 1196,
+        "syntax_error": 4
+      },
+      "response_syntax/graph_as_code/native/True": {
+        "n": 1200
+      },
+      "response_syntax/code/networkx/True": {
+        "n": 1200,
+        "imports_networkx": 783,
+        "uses_nx": 1003,
+        "syntax_error": 2,
+        "nx_without_import": 220
+      },
+      "response_syntax/code/native/True": {
+        "n": 1200
+      },
+      "exec_syntax/graph_as_code/networkx/False": {
+        "n": 13046,
+        "graph_observed": 13006,
+        "failure": 4348,
+        "nx_attrerror": 2168,
+        "any_attrerror": 3257
+      },
+      "exec_syntax/graph_as_code/native/False": {
+        "n": 13046
+      },
+      "exec_syntax/code/networkx/False": {
+        "n": 13034,
+        "graph_observed": 11943,
+        "failure": 3468,
+        "any_attrerror": 2264,
+        "nx_attrerror": 1258
+      },
+      "exec_syntax/code/native/False": {
+        "n": 13031,
+        "failure": 51,
+        "any_attrerror": 29
+      },
+      "exec_syntax/graph_as_code/networkx/True": {
+        "n": 1200,
+        "graph_observed": 1196,
+        "failure": 400,
+        "nx_attrerror": 200,
+        "any_attrerror": 300
+      },
+      "exec_syntax/graph_as_code/native/True": {
+        "n": 1200
+      },
+      "exec_syntax/code/networkx/True": {
+        "n": 1200,
+        "graph_observed": 783,
+        "failure": 530,
+        "any_attrerror": 180,
+        "nx_nameerror": 220,
+        "nx_attrerror": 113
+      },
+      "exec_syntax/code/native/True": {
+        "n": 1200,
+        "failure": 8,
+        "any_attrerror": 6
+      }
+    },
+    "exceptions": {
+      "code/networkx": {
+        "networkx.exception.NetworkXError: Edge tuple (9,) must be a 2-tuple or 3-tuple.": 1,
+        "AttributeError: 'function' object has no attribute 'triangles'": 163,
+        "AttributeError: 'int' object has no attribute 'keys'": 194,
+        "AttributeError: 'function' object has no attribute 'kclique'": 11,
+        "AttributeError: 'Graph' object has no attribute 'common_neighbors'": 653,
+        "SyntaxError: invalid syntax": 14,
+        "AttributeError: 'int' object has no attribute 'values'": 1,
+        "TypeError: object of type 'int' has no len()": 1,
+        "AttributeError: 'function' object has no attribute 'kbrute'": 5,
+        "NameError: name 'nx' is not defined": 220,
+        "AttributeError: 'function' object has no attribute 'kcore_number'": 2,
+        "EOFError: EOF when reading a line": 5,
+        "FileNotFoundError: [Errno 2] No such file or directory: 'graph_input.txt'": 1,
+        "networkx.exception.NetworkXError: Edge tuple (10,) must be a 2-tuple or 3-tuple.": 1,
+        "NameError: name 'G' is not defined": 4,
+        "AttributeError: module 'networkx' has no attribute 'number_of_connected_components'": 1195,
+        "TypeError: object of type 'generator' has no len()": 2,
+        "TypeError: 'generator' object is not subscriptable": 1228,
+        "networkx.exception.NetworkXError: Edge tuple (15,) must be a 2-tuple or 3-tuple.": 2,
+        "NameError: name 'u' is not defined": 26,
+        "AttributeError: module 'networkx.algorithms.cycles' has no attribute 'is_cycle'. Did you mean: 'find_cycle'?": 28,
+        "AttributeError: module 'networkx.algorithms.cycles' has no attribute 'has_cycle'": 123,
+        "networkx.exception.NetworkXNoCycle: No cycle found.": 45,
+        "AttributeError: module 'networkx' has no attribute 'has_cycle'": 9,
+        "AttributeError: module 'networkx.algorithms.cycles' has no attribute 'is_directed_cycle'": 5,
+        "AttributeError: module 'networkx.algorithms.cycles' has no attribute 'is_directed_acyclic_graph'": 10,
+        "AttributeError: module 'networkx' has no attribute 'connected_components_subgraphs'": 1,
+        "networkx.exception.NetworkXError: Edge tuple (5,) must be a 2-tuple or 3-tuple.": 1,
+        "AttributeError: 'Graph' object has no attribute 'successors'": 44,
+        "ValueError: None cannot be a node": 1,
+        "FileNotFoundError: [Errno 2] No such file or directory: 'graph_data.txt'": 1,
+        "FileNotFoundError: [Errno 2] No such file or directory: 'input.txt'": 1
+      },
+      "code/native": {
+        "ValueError: not enough values to unpack (expected 2, got 1)": 5,
+        "TypeError: 'set' object is not subscriptable": 4,
+        "KeyError: 21": 5,
+        "KeyError: 27": 2,
+        "KeyError: 13": 1,
+        "EOFError: EOF when reading a line": 1,
+        "AttributeError: 'int' object has no attribute 'values'": 34,
+        "KeyError: 6": 1,
+        "AttributeError: 'int' object has no attribute 'items'": 1,
+        "KeyError: 17": 1,
+        "KeyError: 19": 1,
+        "KeyError: 25": 1,
+        "KeyError: 29": 1,
+        "KeyError: 7": 1
+      },
+      "graph_as_code/networkx": {
+        "AttributeError: module 'networkx' has no attribute 'number_of_connected_components'": 1198,
+        "TypeError: 'generator' object is not subscriptable": 1147,
+        "SyntaxError: invalid syntax": 44,
+        "AttributeError: module 'networkx' has no attribute 'has_cycle'": 1170,
+        "AttributeError: 'Graph' object has no attribute 'common_neighbors'": 1189
+      }
+    },
+    "examples": {}
+  },
+  "erdos/hf-deepseek-v3.1-novita": {
+    "stats": {
+      "all/graph_as_code/networkx": {
+        "n": 14246,
+        "correct": 12821,
+        "declared_true": 14246,
+        "execution": 4
+      },
+      "all/graph_as_code/native": {
+        "n": 14246,
+        "correct": 12063,
+        "declared_true": 14246,
+        "execution": 1197
+      },
+      "all/code/networkx": {
+        "n": 14246,
+        "correct": 14105,
+        "declared_true": 14103,
+        "declared_false": 136,
+        "wrong_decl_correct": 94,
+        "wrong_graph_correct": 83,
+        "execution": 19,
+        "declared_missing": 7
+      },
+      "all/code/native": {
+        "n": 14246,
+        "correct": 14107,
+        "declared_true": 14097,
+        "declared_false": 134,
+        "wrong_decl_correct": 88,
+        "declared_missing": 15,
+        "execution": 6
+      },
+      "all/direct/None": {
+        "n": 14246,
+        "correct": 13545,
+        "declared_missing": 14246
+      },
+      "response_weighted/graph_as_code/networkx": {
+        "n": 14246,
+        "imports_networkx": 11622,
+        "uses_nx": 11576
+      },
+      "response_syntax/graph_as_code/networkx/False": {
+        "n": 13046,
+        "imports_networkx": 10643,
+        "uses_nx": 10601
+      },
+      "response_unique/graph_as_code/networkx": {
+        "n": 886,
+        "imports_networkx": 854,
+        "uses_nx": 846
+      },
+      "response_weighted/graph_as_code/native": {
+        "n": 14246
+      },
+      "response_syntax/graph_as_code/native/False": {
+        "n": 13046
+      },
+      "response_unique/graph_as_code/native": {
+        "n": 886
+      },
+      "response_weighted/code/networkx": {
+        "n": 14246,
+        "imports_networkx": 12861,
+        "uses_nx": 12859,
+        "nx_without_import": 5,
+        "no_code": 4
+      },
+      "response_syntax/code/networkx/False": {
+        "n": 13046,
+        "imports_networkx": 11695,
+        "uses_nx": 11688,
+        "no_code": 4
+      },
+      "response_unique/code/networkx": {
+        "n": 12970,
+        "imports_networkx": 11690,
+        "uses_nx": 11688,
+        "nx_without_import": 5,
+        "no_code": 4
+      },
+      "response_syntax/graph_as_code/networkx/True": {
+        "n": 1200,
+        "imports_networkx": 979,
+        "uses_nx": 975
+      },
+      "response_syntax/graph_as_code/native/True": {
+        "n": 1200
+      },
+      "response_weighted/code/native": {
+        "n": 14246,
+        "no_code": 8
+      },
+      "response_syntax/code/native/False": {
+        "n": 13046,
+        "no_code": 8
+      },
+      "response_unique/code/native": {
+        "n": 12970,
+        "no_code": 8
+      },
+      "response_syntax/code/networkx/True": {
+        "n": 1200,
+        "imports_networkx": 1166,
+        "uses_nx": 1171,
+        "nx_without_import": 5
+      },
+      "response_syntax/code/native/True": {
+        "n": 1200
+      },
+      "exec_syntax/graph_as_code/networkx/False": {
+        "n": 13046,
+        "graph_observed": 10601,
+        "failure": 4,
+        "any_attrerror": 4
+      },
+      "exec_syntax/graph_as_code/native/False": {
+        "n": 13046,
+        "failure": 1097
+      },
+      "exec_syntax/code/networkx/False": {
+        "n": 13042,
+        "graph_observed": 11688,
+        "failure": 14,
+        "nx_attrerror": 3,
+        "any_attrerror": 3
+      },
+      "exec_syntax/graph_as_code/networkx/True": {
+        "n": 1200,
+        "graph_observed": 975
+      },
+      "exec_syntax/graph_as_code/native/True": {
+        "n": 1200,
+        "failure": 100
+      },
+      "exec_syntax/code/native/False": {
+        "n": 13038,
+        "failure": 6
+      },
+      "exec_syntax/code/networkx/True": {
+        "n": 1200,
+        "graph_observed": 1166,
+        "failure": 5,
+        "nx_nameerror": 5
+      },
+      "exec_syntax/code/native/True": {
+        "n": 1200
+      }
+    },
+    "exceptions": {
+      "code/native": {
+        "KeyError: 7": 1,
+        "SyntaxError: no binding for nonlocal 'id_counter' found": 2,
+        "SyntaxError: no binding for nonlocal 'time' found": 3
+      },
+      "code/networkx": {
+        "networkx.exception.NetworkXNoPath: No path between 13 and 3.": 1,
+        "ValueError: not enough values to unpack (expected 3, got 1)": 4,
+        "AttributeError: module 'networkx' has no attribute 'combinations'": 3,
+        "NameError: name 'nx' is not defined": 5,
+        "networkx.exception.NetworkXError: Found infinite path length because the graph is not connected": 1,
+        "TypeError: 'bool' object is not iterable": 1,
+        "KeyError: 23": 1,
+        "KeyError: 21": 1,
+        "KeyError: 10": 1,
+        "SyntaxError: no binding for nonlocal 'id_counter' found": 1
+      },
+      "graph_as_code/networkx": {
+        "AttributeError: 'int' object has no attribute 'items'": 4
+      },
+      "graph_as_code/native": {
+        "SyntaxError: no binding for nonlocal 'time' found": 1197
+      }
+    },
+    "examples": {}
+  },
+  "erdos/hf-gemma-4-31b": {
+    "stats": {
+      "all/graph_as_code/networkx": {
+        "n": 14246,
+        "correct": 13182,
+        "declared_true": 14246
+      },
+      "all/graph_as_code/native": {
+        "n": 14246,
+        "correct": 13285,
+        "declared_true": 14241,
+        "declared_missing": 5
+      },
+      "all/code/networkx": {
+        "n": 14246,
+        "correct": 14216,
+        "declared_true": 14086,
+        "declared_false": 22,
+        "wrong_decl_correct": 19,
+        "wrong_graph_correct": 19,
+        "execution": 18,
+        "declared_missing": 138
+      },
+      "all/code/native": {
+        "n": 14246,
+        "correct": 14225,
+        "declared_true": 14104,
+        "declared_false": 24,
+        "wrong_decl_correct": 21,
+        "declared_missing": 118,
+        "execution": 5
+      },
+      "all/direct/None": {
+        "n": 14246,
+        "correct": 14005,
+        "declared_missing": 14246
+      },
+      "response_weighted/code/networkx": {
+        "n": 14246,
+        "imports_networkx": 14112,
+        "uses_nx": 14059,
+        "no_code": 9,
+        "syntax_error": 6
+      },
+      "response_syntax/code/networkx/False": {
+        "n": 13046,
+        "imports_networkx": 12922,
+        "uses_nx": 12869,
+        "no_code": 9
+      },
+      "response_unique/code/networkx": {
+        "n": 12970,
+        "imports_networkx": 12846,
+        "uses_nx": 12793,
+        "no_code": 9,
+        "syntax_error": 6
+      },
+      "response_weighted/code/native": {
+        "n": 14246,
+        "no_code": 12,
+        "syntax_error": 5
+      },
+      "response_syntax/code/native/False": {
+        "n": 13046,
+        "no_code": 12
+      },
+      "response_unique/code/native": {
+        "n": 12970,
+        "no_code": 12,
+        "syntax_error": 5
+      },
+      "response_weighted/graph_as_code/native": {
+        "n": 14246,
+        "no_code": 5
+      },
+      "response_syntax/graph_as_code/native/False": {
+        "n": 13046,
+        "no_code": 5
+      },
+      "response_unique/graph_as_code/native": {
+        "n": 886,
+        "no_code": 4
+      },
+      "response_weighted/graph_as_code/networkx": {
+        "n": 14246,
+        "imports_networkx": 14246,
+        "uses_nx": 14245
+      },
+      "response_syntax/graph_as_code/networkx/False": {
+        "n": 13046,
+        "imports_networkx": 13046,
+        "uses_nx": 13045
+      },
+      "response_unique/graph_as_code/networkx": {
+        "n": 886,
+        "imports_networkx": 886,
+        "uses_nx": 885
+      },
+      "response_syntax/graph_as_code/networkx/True": {
+        "n": 1200,
+        "imports_networkx": 1200,
+        "uses_nx": 1200
+      },
+      "response_syntax/code/networkx/True": {
+        "n": 1200,
+        "imports_networkx": 1190,
+        "uses_nx": 1190,
+        "syntax_error": 6
+      },
+      "response_syntax/graph_as_code/native/True": {
+        "n": 1200
+      },
+      "response_syntax/code/native/True": {
+        "n": 1200,
+        "syntax_error": 5
+      },
+      "exec_syntax/code/native/False": {
+        "n": 13034
+      },
+      "exec_syntax/code/networkx/False": {
+        "n": 13037,
+        "graph_observed": 12869,
+        "failure": 12,
+        "nx_attrerror": 6,
+        "any_attrerror": 6
+      },
+      "exec_syntax/graph_as_code/native/False": {
+        "n": 13041
+      },
+      "exec_syntax/graph_as_code/networkx/False": {
+        "n": 13046,
+        "graph_observed": 13045
+      },
+      "exec_syntax/graph_as_code/networkx/True": {
+        "n": 1200,
+        "graph_observed": 1200
+      },
+      "exec_syntax/graph_as_code/native/True": {
+        "n": 1200
+      },
+      "exec_syntax/code/native/True": {
+        "n": 1200,
+        "failure": 5
+      },
+      "exec_syntax/code/networkx/True": {
+        "n": 1200,
+        "graph_observed": 1190,
+        "failure": 6
+      }
+    },
+    "exceptions": {
+      "code/native": {
+        "SyntaxError: unmatched ')'": 5
+      },
+      "code/networkx": {
+        "SyntaxError: unmatched ')'": 6,
+        "AttributeError: module 'networkx' has no attribute 'enumerate_allcliques'": 5,
+        "TypeError: enumerate_all_cliques() takes 1 positional argument but 2 were given": 4,
+        "AttributeError: module 'networkx' has no attribute 'number_of_triangles'": 1,
+        "networkx.exception.NetworkXError: Found infinite path length because the graph is not connected": 1,
+        "TypeError: object of type 'generator' has no len()": 1
+      }
+    },
+    "examples": {}
+  },
+  "erdos/hf-deepseek-v4-flash": {
+    "stats": {
+      "all/graph_as_code/networkx": {
+        "n": 14246,
+        "correct": 13355,
+        "declared_true": 14246,
+        "wrong_graph_correct": 28,
+        "execution": 13
+      },
+      "all/graph_as_code/native": {
+        "n": 14246,
+        "correct": 13289,
+        "declared_true": 14246
+      },
+      "all/code/networkx": {
+        "n": 14246,
+        "correct": 13732,
+        "declared_true": 13860,
+        "declared_false": 25,
+        "wrong_decl_correct": 21,
+        "wrong_graph_correct": 28,
+        "execution": 352,
+        "declared_missing": 361
+      },
+      "all/code/native": {
+        "n": 14246,
+        "correct": 13870,
+        "declared_true": 14085,
+        "declared_false": 36,
+        "wrong_decl_correct": 24,
+        "declared_missing": 125,
+        "execution": 118
+      },
+      "all/direct/None": {
+        "n": 14246,
+        "correct": 12788,
+        "declared_missing": 14246
+      },
+      "response_weighted/graph_as_code/networkx": {
+        "n": 14246,
+        "imports_networkx": 12047,
+        "uses_nx": 12060,
+        "nx_without_import": 13
+      },
+      "response_syntax/graph_as_code/networkx/False": {
+        "n": 13046,
+        "imports_networkx": 11035,
+        "uses_nx": 11047,
+        "nx_without_import": 12
+      },
+      "response_unique/graph_as_code/networkx": {
+        "n": 886,
+        "imports_networkx": 817,
+        "uses_nx": 820,
+        "nx_without_import": 3
+      },
+      "response_weighted/graph_as_code/native": {
+        "n": 14246
+      },
+      "response_syntax/graph_as_code/native/False": {
+        "n": 13046
+      },
+      "response_unique/graph_as_code/native": {
+        "n": 886
+      },
+      "response_weighted/code/networkx": {
+        "n": 14246,
+        "imports_networkx": 8757,
+        "uses_nx": 8793,
+        "no_code": 9,
+        "nx_without_import": 36
+      },
+      "response_syntax/code/networkx/False": {
+        "n": 13046,
+        "imports_networkx": 8129,
+        "uses_nx": 8129,
+        "no_code": 9
+      },
+      "response_unique/code/networkx": {
+        "n": 12970,
+        "imports_networkx": 7936,
+        "uses_nx": 7972,
+        "no_code": 9,
+        "nx_without_import": 36
+      },
+      "response_weighted/code/native": {
+        "n": 14246,
+        "no_code": 6
+      },
+      "response_syntax/code/native/False": {
+        "n": 13046,
+        "no_code": 6
+      },
+      "response_unique/code/native": {
+        "n": 12970,
+        "no_code": 6
+      },
+      "response_syntax/graph_as_code/networkx/True": {
+        "n": 1200,
+        "imports_networkx": 1012,
+        "uses_nx": 1013,
+        "nx_without_import": 1
+      },
+      "response_syntax/code/networkx/True": {
+        "n": 1200,
+        "imports_networkx": 628,
+        "uses_nx": 664,
+        "nx_without_import": 36
+      },
+      "response_syntax/code/native/True": {
+        "n": 1200
+      },
+      "response_syntax/graph_as_code/native/True": {
+        "n": 1200
+      },
+      "exec_syntax/graph_as_code/networkx/False": {
+        "n": 13046,
+        "graph_observed": 11035,
+        "failure": 12,
+        "nx_nameerror": 12
+      },
+      "exec_syntax/graph_as_code/native/False": {
+        "n": 13046
+      },
+      "exec_syntax/code/native/False": {
+        "n": 13040,
+        "failure": 104
+      },
+      "exec_syntax/code/networkx/False": {
+        "n": 13037,
+        "graph_observed": 8128,
+        "failure": 5
+      },
+      "exec_syntax/graph_as_code/networkx/True": {
+        "n": 1200,
+        "graph_observed": 1012,
+        "failure": 1,
+        "nx_nameerror": 1
+      },
+      "exec_syntax/code/native/True": {
+        "n": 1200,
+        "failure": 14
+      },
+      "exec_syntax/graph_as_code/native/True": {
+        "n": 1200
+      },
+      "exec_syntax/code/networkx/True": {
+        "n": 1200,
+        "graph_observed": 627,
+        "failure": 347
+      }
+    },
+    "exceptions": {
+      "code/networkx": {
+        "NameError: name 'G' is not defined": 347,
+        "networkx.exception.NetworkXError: Edge tuple (15,) must be a 2-tuple or 3-tuple.": 3,
+        "ValueError: not enough values to unpack (expected 2, got 1)": 1,
+        "networkx.exception.NetworkXError: Edge tuple (13,) must be a 2-tuple or 3-tuple.": 1
+      },
+      "code/native": {
+        "ValueError: not enough values to unpack (expected 2, got 1)": 2,
+        "SyntaxError: no binding for nonlocal 'time' found": 88,
+        "SyntaxError: no binding for nonlocal 'timer' found": 28
+      },
+      "graph_as_code/networkx": {
+        "NameError: name 'nx' is not defined": 13
+      }
+    },
+    "examples": {}
+  }
+}

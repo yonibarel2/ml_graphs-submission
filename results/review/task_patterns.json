@@ -1,0 +1,988 @@
+{
+  "graphqa": {
+    "canonical_size_within_task_quartiles": [
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "code/native",
+        "size": "n",
+        "low": 0.8857142857142858,
+        "high": 0.8783068783068783,
+        "diff": -0.00740740740740741,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "code/native",
+        "size": "m",
+        "low": 0.888888888888889,
+        "high": 0.879120879120879,
+        "diff": -0.009768009768009765,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "code/networkx",
+        "size": "n",
+        "low": 0.8342857142857143,
+        "high": 0.8783068783068783,
+        "diff": 0.044021164021164016,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "code/networkx",
+        "size": "m",
+        "low": 0.8412698412698413,
+        "high": 0.8846153846153847,
+        "diff": 0.04334554334554335,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "direct/-",
+        "size": "n",
+        "low": 0.8514285714285714,
+        "high": 0.8042328042328043,
+        "diff": -0.047195767195767215,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "direct/-",
+        "size": "m",
+        "low": 0.8201058201058201,
+        "high": 0.8571428571428571,
+        "diff": 0.03703703703703705,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "code/native",
+        "size": "n",
+        "low": 0.8228571428571428,
+        "high": 0.7777777777777778,
+        "diff": -0.045079365079365094,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "code/native",
+        "size": "m",
+        "low": 0.8095238095238094,
+        "high": 0.8076923076923076,
+        "diff": -0.001831501831501825,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "code/networkx",
+        "size": "n",
+        "low": 0.84,
+        "high": 0.8465608465608465,
+        "diff": 0.006560846560846553,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "code/networkx",
+        "size": "m",
+        "low": 0.8201058201058201,
+        "high": 0.868131868131868,
+        "diff": 0.04802604802604804,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "direct/-",
+        "size": "n",
+        "low": 0.8571428571428571,
+        "high": 0.8306878306878307,
+        "diff": -0.02645502645502646,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "direct/-",
+        "size": "m",
+        "low": 0.8465608465608465,
+        "high": 0.8571428571428571,
+        "diff": 0.010582010582010597,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "code/native",
+        "size": "n",
+        "low": 0.9771428571428571,
+        "high": 0.9735449735449736,
+        "diff": -0.0035978835978836,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "code/native",
+        "size": "m",
+        "low": 0.9629629629629629,
+        "high": 0.9945054945054945,
+        "diff": 0.03154253154253155,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "code/networkx",
+        "size": "n",
+        "low": 0.9714285714285714,
+        "high": 0.9841269841269842,
+        "diff": 0.012698412698412685,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "code/networkx",
+        "size": "m",
+        "low": 0.9576719576719578,
+        "high": 1.0,
+        "diff": 0.042328042328042326,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "direct/-",
+        "size": "n",
+        "low": 0.9028571428571429,
+        "high": 0.9153439153439153,
+        "diff": 0.012486772486772482,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "direct/-",
+        "size": "m",
+        "low": 0.8835978835978836,
+        "high": 0.9560439560439561,
+        "diff": 0.07244607244607246,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "code/native",
+        "size": "n",
+        "low": 0.9485714285714285,
+        "high": 0.9947089947089947,
+        "diff": 0.046137566137566144,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "code/native",
+        "size": "m",
+        "low": 0.9417989417989417,
+        "high": 0.9835164835164836,
+        "diff": 0.041717541717541766,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "code/networkx",
+        "size": "n",
+        "low": 0.92,
+        "high": 0.8677248677248677,
+        "diff": -0.0522751322751323,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "code/networkx",
+        "size": "m",
+        "low": 0.9047619047619048,
+        "high": 0.8791208791208792,
+        "diff": -0.0256410256410256,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "direct/-",
+        "size": "n",
+        "low": 0.8914285714285715,
+        "high": 0.8042328042328043,
+        "diff": -0.08719576719576719,
+        "n_tasks": 7
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "direct/-",
+        "size": "m",
+        "low": 0.8624338624338623,
+        "high": 0.7857142857142857,
+        "diff": -0.0767195767195767,
+        "n_tasks": 7
+      }
+    ],
+    "canonical_overlap": [
+      {
+        "arm": "code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-deepseek-v4-flash",
+        "n": 700,
+        "both_wrong": 90,
+        "either_wrong": 152,
+        "correlation": 0.7293312501711907
+      },
+      {
+        "arm": "code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-gemma-4-31b",
+        "n": 700,
+        "both_wrong": 16,
+        "either_wrong": 90,
+        "correlation": 0.3981764802467649
+      },
+      {
+        "arm": "code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 6,
+        "either_wrong": 102,
+        "correlation": 0.09938139620986276
+      },
+      {
+        "arm": "code/native",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-gemma-4-31b",
+        "n": 700,
+        "both_wrong": 16,
+        "either_wrong": 152,
+        "correlation": 0.2904025501271379
+      },
+      {
+        "arm": "code/native",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 6,
+        "either_wrong": 164,
+        "correlation": 0.045782611695860266
+      },
+      {
+        "arm": "code/native",
+        "model_a": "hf-gemma-4-31b",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 1,
+        "either_wrong": 33,
+        "correlation": 0.03554518132081218
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-deepseek-v4-flash",
+        "n": 700,
+        "both_wrong": 88,
+        "either_wrong": 129,
+        "correlation": 0.7809079558639496
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-gemma-4-31b",
+        "n": 700,
+        "both_wrong": 18,
+        "either_wrong": 99,
+        "correlation": 0.4002798274739701
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 50,
+        "either_wrong": 118,
+        "correlation": 0.5534486997975744
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-gemma-4-31b",
+        "n": 700,
+        "both_wrong": 18,
+        "either_wrong": 118,
+        "correlation": 0.36079835924873926
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 49,
+        "either_wrong": 138,
+        "correlation": 0.4783687647179463
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-gemma-4-31b",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 11,
+        "either_wrong": 76,
+        "correlation": 0.2793382292647941
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-deepseek-v4-flash",
+        "n": 700,
+        "both_wrong": 102,
+        "either_wrong": 153,
+        "correlation": 0.7589086774408796
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-gemma-4-31b",
+        "n": 700,
+        "both_wrong": 69,
+        "either_wrong": 137,
+        "correlation": 0.6703533431231367
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 71,
+        "either_wrong": 170,
+        "correlation": 0.5127273214668332
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-gemma-4-31b",
+        "n": 700,
+        "both_wrong": 67,
+        "either_wrong": 120,
+        "correlation": 0.7087933551088839
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 70,
+        "either_wrong": 152,
+        "correlation": 0.5629307651491025
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-gemma-4-31b",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 51,
+        "either_wrong": 122,
+        "correlation": 0.5490746624600447
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-deepseek-v4-flash",
+        "n": 700,
+        "both_wrong": 89,
+        "either_wrong": 89,
+        "correlation": 1.0
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-gemma-4-31b",
+        "n": 700,
+        "both_wrong": 22,
+        "either_wrong": 89,
+        "correlation": 0.4719783691251928
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 0,
+        "either_wrong": 89,
+        "correlation": NaN
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-gemma-4-31b",
+        "n": 700,
+        "both_wrong": 22,
+        "either_wrong": 89,
+        "correlation": 0.4719783691251928
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 0,
+        "either_wrong": 89,
+        "correlation": NaN
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-gemma-4-31b",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 0,
+        "either_wrong": 22,
+        "correlation": NaN
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-deepseek-v4-flash",
+        "n": 700,
+        "both_wrong": 89,
+        "either_wrong": 175,
+        "correlation": 0.6610510898346068
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-gemma-4-31b",
+        "n": 700,
+        "both_wrong": 0,
+        "either_wrong": 89,
+        "correlation": NaN
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 0,
+        "either_wrong": 189,
+        "correlation": -0.1558112361109361
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-gemma-4-31b",
+        "n": 700,
+        "both_wrong": 0,
+        "either_wrong": 175,
+        "correlation": NaN
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 0,
+        "either_wrong": 275,
+        "correlation": -0.23570226039551584
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-gemma-4-31b",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 700,
+        "both_wrong": 0,
+        "either_wrong": 100,
+        "correlation": NaN
+      }
+    ],
+    "gt_errors": []
+  },
+  "erdos": {
+    "canonical_size_within_task_quartiles": [
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "code/native",
+        "size": "n",
+        "low": 0.9970238095238096,
+        "high": 1.0,
+        "diff": 0.0029761904761904747,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "code/native",
+        "size": "m",
+        "low": 0.9967948717948718,
+        "high": 1.0,
+        "diff": 0.003205128205128203,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "code/networkx",
+        "size": "n",
+        "low": 0.9823481116584564,
+        "high": 1.0,
+        "diff": 0.01765188834154351,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "code/networkx",
+        "size": "m",
+        "low": 0.983974358974359,
+        "high": 1.0,
+        "diff": 0.016025641025641014,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "direct/-",
+        "size": "n",
+        "low": 0.9939373897707231,
+        "high": 0.9418922127255461,
+        "diff": -0.05204517704517705,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-deepseek-v3.1-novita",
+        "arm": "direct/-",
+        "size": "m",
+        "low": 0.9908119658119658,
+        "high": 0.9188644688644688,
+        "diff": -0.07194749694749696,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "code/native",
+        "size": "n",
+        "low": 0.9760802469135802,
+        "high": 0.9818036901370234,
+        "diff": 0.005723443223443221,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "code/native",
+        "size": "m",
+        "low": 0.9775641025641025,
+        "high": 0.9650457875457875,
+        "diff": -0.01251831501831501,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "code/networkx",
+        "size": "n",
+        "low": 0.9909611992945327,
+        "high": 0.9967948717948718,
+        "diff": 0.005833672500339171,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "code/networkx",
+        "size": "m",
+        "low": 0.9935897435897436,
+        "high": 0.9877380952380953,
+        "diff": -0.005851648351648355,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "direct/-",
+        "size": "n",
+        "low": 0.9786992945326279,
+        "high": 0.8671801655134989,
+        "diff": -0.11151912901912901,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-deepseek-v4-flash",
+        "arm": "direct/-",
+        "size": "m",
+        "low": 0.9844017094017095,
+        "high": 0.8465472798806132,
+        "diff": -0.13785442952109622,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "code/native",
+        "size": "n",
+        "low": 1.0,
+        "high": 1.0,
+        "diff": 0.0,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "code/native",
+        "size": "m",
+        "low": 1.0,
+        "high": 1.0,
+        "diff": 0.0,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "code/networkx",
+        "size": "n",
+        "low": 1.0,
+        "high": 1.0,
+        "diff": 0.0,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "code/networkx",
+        "size": "m",
+        "low": 1.0,
+        "high": 1.0,
+        "diff": 0.0,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "direct/-",
+        "size": "n",
+        "low": 0.9966666666666667,
+        "high": 0.9662698412698413,
+        "diff": -0.030396825396825394,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-gemma-4-31b",
+        "arm": "direct/-",
+        "size": "m",
+        "low": 1.0,
+        "high": 0.9800000000000001,
+        "diff": -0.02,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "code/native",
+        "size": "n",
+        "low": 0.9806040564373898,
+        "high": 0.9394151357369749,
+        "diff": -0.041188920700414945,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "code/native",
+        "size": "m",
+        "low": 0.9838461538461538,
+        "high": 0.9245329670329671,
+        "diff": -0.059313186813186806,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "code/networkx",
+        "size": "n",
+        "low": 0.711150033448884,
+        "high": 0.7508736942070274,
+        "diff": 0.039723660758143514,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "code/networkx",
+        "size": "m",
+        "low": 0.7017948717948718,
+        "high": 0.7476600868267536,
+        "diff": 0.0458652150318817,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "direct/-",
+        "size": "n",
+        "low": 0.8901026272577995,
+        "high": 0.5658974358974359,
+        "diff": -0.3242051913603638,
+        "n_tasks": 12
+      },
+      {
+        "model": "hf-qwen3-8b-nscale",
+        "arm": "direct/-",
+        "size": "m",
+        "low": 0.8931776556776557,
+        "high": 0.5281132139465472,
+        "diff": -0.3650644417311084,
+        "n_tasks": 12
+      }
+    ],
+    "canonical_overlap": [
+      {
+        "arm": "code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-deepseek-v4-flash",
+        "n": 1200,
+        "both_wrong": 0,
+        "either_wrong": 25,
+        "correlation": -0.005711659056448572
+      },
+      {
+        "arm": "code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-gemma-4-31b",
+        "n": 1200,
+        "both_wrong": 0,
+        "either_wrong": 2,
+        "correlation": NaN
+      },
+      {
+        "arm": "code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 1,
+        "either_wrong": 61,
+        "correlation": 0.08436305490526871
+      },
+      {
+        "arm": "code/native",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-gemma-4-31b",
+        "n": 1200,
+        "both_wrong": 0,
+        "either_wrong": 23,
+        "correlation": NaN
+      },
+      {
+        "arm": "code/native",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 2,
+        "either_wrong": 81,
+        "correlation": 0.023703909014483878
+      },
+      {
+        "arm": "code/native",
+        "model_a": "hf-gemma-4-31b",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 0,
+        "either_wrong": 60,
+        "correlation": NaN
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-deepseek-v4-flash",
+        "n": 1200,
+        "both_wrong": 0,
+        "either_wrong": 19,
+        "correlation": -0.007968781030836937
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-gemma-4-31b",
+        "n": 1200,
+        "both_wrong": 0,
+        "either_wrong": 10,
+        "correlation": NaN
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 4,
+        "either_wrong": 327,
+        "correlation": 0.02743953136670536
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-gemma-4-31b",
+        "n": 1200,
+        "both_wrong": 0,
+        "either_wrong": 9,
+        "correlation": NaN
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 2,
+        "either_wrong": 328,
+        "correlation": -0.008891699354127381
+      },
+      {
+        "arm": "code/networkx",
+        "model_a": "hf-gemma-4-31b",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 0,
+        "either_wrong": 321,
+        "correlation": NaN
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-deepseek-v4-flash",
+        "n": 1200,
+        "both_wrong": 26,
+        "either_wrong": 120,
+        "correlation": 0.353915753855955
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-gemma-4-31b",
+        "n": 1200,
+        "both_wrong": 3,
+        "either_wrong": 57,
+        "correlation": 0.09329480466112754
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 36,
+        "either_wrong": 354,
+        "correlation": 0.228198812062108
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-gemma-4-31b",
+        "n": 1200,
+        "both_wrong": 12,
+        "either_wrong": 106,
+        "correlation": 0.2771952446296724
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 83,
+        "either_wrong": 365,
+        "correlation": 0.3535059780283646
+      },
+      {
+        "arm": "direct/-",
+        "model_a": "hf-gemma-4-31b",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 13,
+        "either_wrong": 349,
+        "correlation": 0.13451409709399256
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-deepseek-v4-flash",
+        "n": 1200,
+        "both_wrong": 72,
+        "either_wrong": 192,
+        "correlation": 0.5510993741982712
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-gemma-4-31b",
+        "n": 1200,
+        "both_wrong": 72,
+        "either_wrong": 192,
+        "correlation": 0.5510993741982712
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 72,
+        "either_wrong": 186,
+        "correlation": 0.5799521011330336
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-gemma-4-31b",
+        "n": 1200,
+        "both_wrong": 72,
+        "either_wrong": 90,
+        "correlation": 0.8808459934465295
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 72,
+        "either_wrong": 84,
+        "correlation": 0.9185150752175196
+      },
+      {
+        "arm": "graph_as_code/native",
+        "model_a": "hf-gemma-4-31b",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 72,
+        "either_wrong": 84,
+        "correlation": 0.9185150752175196
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-deepseek-v4-flash",
+        "n": 1200,
+        "both_wrong": 72,
+        "either_wrong": 122,
+        "correlation": 0.7436496267894462
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-gemma-4-31b",
+        "n": 1200,
+        "both_wrong": 72,
+        "either_wrong": 137,
+        "correlation": 0.6676816389884348
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-deepseek-v3.1-novita",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 119,
+        "either_wrong": 472,
+        "correlation": 0.4120551287418211
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-gemma-4-31b",
+        "n": 1200,
+        "both_wrong": 72,
+        "either_wrong": 93,
+        "correlation": 0.8675532540706936
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-deepseek-v4-flash",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 72,
+        "either_wrong": 475,
+        "correlation": 0.29952052907883603
+      },
+      {
+        "arm": "graph_as_code/networkx",
+        "model_a": "hf-gemma-4-31b",
+        "model_b": "hf-qwen3-8b-nscale",
+        "n": 1200,
+        "both_wrong": 72,
+        "either_wrong": 490,
+        "correlation": 0.23705160402984832
+      }
+    ],
+    "gt_errors": []
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "erdos": {
+    "n": 1200,
+    "source_files": 1179,
+    "unique_graph_content": 1173,
+    "shared_sources": {
+      "/data2/graph/networkrepository/sampled/bio-grid-human/Tiny_44.npz": [
+        "erdos-shortest_path-0017",
+        "erdos-connected_component_number-0065"
+      ],
+      "/data2/graph/networkrepository/sampled/thermomech_dM/Tiny_32.npz": [
+        "erdos-shortest_path-0092",
+        "erdos-connected_component_number-0081"
+      ],
+      "/data2/graph/networkrepository/sampled/DD_g625/Tiny_31.npz": [
+        "erdos-triangles-0031",
+        "erdos-diameter-0027"
+      ],
+      "/data2/graph/networkrepository/sampled/DD_g964/Tiny_11.npz": [
+        "erdos-triangles-0054",
+        "erdos-has_cycle-0077"
+      ],
+      "/data2/graph/networkrepository/sampled/socfb-Brandeis99/Tiny_22.npz": [
+        "erdos-triangles-0073",
+        "erdos-density-0053"
+      ],
+      "/data2/graph/networkrepository/sampled/DD_g91/Tiny_59.npz": [
+        "erdos-triangles-0091",
+        "erdos-connected_component_number-0070"
+      ],
+      "/data2/graph/networkrepository/sampled/G50/Tiny_17.npz": [
+        "erdos-degree-0015",
+        "erdos-density-0093"
+      ],
+      "/data2/graph/networkrepository/sampled/thermomech_TC/Tiny_29.npz": [
+        "erdos-degree-0021",
+        "erdos-diameter-0005"
+      ],
+      "/data2/graph/networkrepository/sampled/ukerbe1_dual/Tiny_29.npz": [
+        "erdos-degree-0092",
+        "erdos-edge_existence-0061"
+      ],
+      "/data2/graph/networkrepository/sampled/DD_g149/Tiny_81.npz": [
+        "erdos-edge_number-0017",
+        "erdos-bridges-0031"
+      ],
+      "/data2/graph/networkrepository/sampled/bn-human-BNU_1_0025872_session_1-bg/Tiny_70.npz": [
+        "erdos-edge_number-0024",
+        "erdos-bridges-0097"
+      ],
+      "/data2/graph/networkrepository/sampled/DD_g108/Tiny_43.npz": [
+        "erdos-edge_number-0072",
+        "erdos-density-0001"
+      ],
+      "/data2/graph/networkrepository/sampled/rt_barackobama/Tiny_6.npz": [
+        "erdos-connected_component_number-0014",
+        "erdos-has_cycle-0034"
+      ],
+      "/data2/graph/networkrepository/sampled/DD_g1124/Tiny_71.npz": [
+        "erdos-connected_component_number-0082",
+        "erdos-density-0059"
+      ],
+      "/data2/graph/networkrepository/sampled/SW-100-5-0d1-trial2/Tiny_9.npz": [
+        "erdos-connected_component_number-0098",
+        "erdos-density-0094"
+      ],
+      "/data2/graph/networkrepository/sampled/MANN-a27/Tiny_22.npz": [
+        "erdos-diameter-0002",
+        "erdos-neighbor-0050"
+      ],
+      "/data2/graph/networkrepository/sampled/c-fat500-5/Tiny_36.npz": [
+        "erdos-density-0064",
+        "erdos-edge_existence-0070"
+      ],
+      "/data2/graph/networkrepository/sampled/ia-email-EU/Tiny_19.npz": [
+        "erdos-edge_existence-0003",
+        "erdos-has_cycle-0013"
+      ],
+      "/data2/graph/networkrepository/sampled/hugetrace-00010/Tiny_59.npz": [
+        "erdos-edge_existence-0069",
+        "erdos-neighbor-0097"
+      ],
+      "/data2/graph/networkrepository/sampled/graph500-scale21-ef16_adj/Tiny_0.npz": [
+        "erdos-has_cycle-0017",
+        "erdos-neighbor-0077"
+      ],
+      "/data2/graph/networkrepository/sampled/SW-10000-5-0d2-trial3/Tiny_93.npz": [
+        "erdos-neighbor-0004",
+        "erdos-bridges-0090"
+      ]
+    },
+    "directed": {
+      "False": 1123,
+      "True": 77
+    }
+  },
+  "hf-gemma-4-31b": {
+    "neighbor": {
+      "native": {
+        "n": 100,
+        "correct": 28,
+        "matches_successors": 100
+      },
+      "networkx": {
+        "n": 100,
+        "correct": 28,
+        "matches_successors": 100
+      }
+    },
+    "direction_mismatches": {
+      "graph_as_code/networkx/edge_existence/True/ok/True": 578,
+      "graph_as_code/networkx/edge_existence/False/logic/True": 206,
+      "graph_as_code/networkx/neighbor/True/ok/True": 143,
+      "graph_as_code/networkx/neighbor/False/logic/True": 858,
+      "code/networkx/neighbor/True/ok/True": 69
+    }
+  },
+  "hf-deepseek-v3.1-novita": {
+    "neighbor": {
+      "networkx": {
+        "n": 100,
+        "correct": 28,
+        "matches_successors": 100
+      },
+      "native": {
+        "n": 100,
+        "correct": 28,
+        "matches_successors": 100
+      }
+    },
+    "direction_mismatches": {
+      "graph_as_code/networkx/edge_existence/True/ok/True": 19,
+      "graph_as_code/networkx/edge_existence/False/logic/True": 1,
+      "graph_as_code/networkx/has_cycle/False/logic/True": 562,
+      "graph_as_code/networkx/has_cycle/True/ok/True": 425,
+      "graph_as_code/networkx/neighbor/True/ok/True": 143,
+      "graph_as_code/networkx/neighbor/False/logic/True": 858
+    }
+  },
+  "hf-deepseek-v4-flash": {
+    "neighbor": {
+      "native": {
+        "n": 100,
+        "correct": 28,
+        "matches_successors": 100
+      },
+      "networkx": {
+        "n": 100,
+        "correct": 28,
+        "matches_successors": 100
+      }
+    },
+    "direction_mismatches": {
+      "graph_as_code/networkx/degree/True/ok/False": 28,
+      "code/networkx/degree/True/ok/False": 11,
+      "graph_as_code/networkx/degree/False/construction/False": 2,
+      "code/networkx/degree/False/construction/False": 1,
+      "code/networkx/edge_number/True/ok/False": 1,
+      "graph_as_code/networkx/neighbor/True/ok/True": 143,
+      "graph_as_code/networkx/neighbor/False/logic/True": 858
+    }
+  },
+  "hf-qwen3-8b-nscale": {
+    "neighbor": {
+      "networkx": {
+        "n": 100,
+        "correct": 28,
+        "matches_successors": 100
+      },
+      "native": {
+        "n": 100,
+        "correct": 28,
+        "matches_successors": 100
+      }
+    },
+    "direction_mismatches": {
+      "graph_as_code/networkx/neighbor/True/ok/True": 143,
+      "graph_as_code/networkx/neighbor/False/logic/True": 858,
+      "code/networkx/neighbor/False/logic/True": 1
+    }
+  }
+}
