@@ -6,7 +6,8 @@ source papers.
 
 The abstract, contributions, results and conclusion are written against the
 results on `main`: `ANALYSIS.md` (section 8 for the mitigation experiments) and the
-`docs/220926-*` reports, whose numbers trace to committed tables. The one exception
+reports in `docs/` (`erdos-m3-graph-type-rerun.md`, `graph-type-omission-ablation.md`,
+`four-model-detection.md`), whose numbers trace to committed tables. The one exception
 is the duplicate-edge hint, whose tables are on `origin/mitigation-dedup` (removed
 from main in 9e17199; the paper says it covers two models). LaTeX comments record
 sources, denominators and settings; they do not appear in the compiled paper. No
@@ -19,7 +20,7 @@ graph-recovery diagnostics; retain those qualifications when adding results.
 The course specifies ACL format and at most **5 pages excluding references**
 (Lecture 8, page 27). Main content currently ends at the bottom of page 5, so
 any addition needs an equal cut. The supplied style uses two columns and shows the authors for the course submission.
-The layout was compared with `refrences/CodeGraph[1].pdf` (pages 1, 3, and 8).
+The layout was compared with the CodeGraph paper (pages 1, 3, and 8).
 Local overrides in `main.tex` center main section headings, left-align numbered
 subsections, and use bold inline labels ending in colons, with compact spacing.
 Citations and reference links are black and remain clickable. Paragraphs use
