@@ -712,8 +712,8 @@ misread identically under every permutation, and those are the two cells where r
   misread task each), Qwen passes on GraphQA and fails in its Erdős NetworkX arm (-6.6) (§8.4).
 - (4) and (6), the hints and the combined recipe, were not run.
 
-Not established: E4's hints, beyond a duplicate-edge hint run separately on two models (branch
-`mitigation-dedup` of the development repository, not included here); anything about a
+Not established: E4's hints, beyond a duplicate-edge hint run separately on two models (archived
+in [docs/duplicate-edge-hint.md](docs/duplicate-edge-hint.md)); anything about a
 different generation of the same prompts (every experiment except E0 uses one draw per prompt,
 and E5 one draw per task); and detection rates where a model makes almost no errors
 (DeepSeek-V3.1 on Erdős: 2 and 10; DeepSeek-V4-Flash on Erdős NetworkX: 9; Gemma on Erdős: none).

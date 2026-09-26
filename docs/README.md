@@ -35,6 +35,7 @@ reports go deeper on single questions; their numbers trace to committed tables u
 | [erdos-m3-graph-type-rerun.md](erdos-m3-graph-type-rerun.md) | The Erdős M3 control rerun with the graph type stated, and what it changed |
 | [graph-type-omission-ablation.md](graph-type-omission-ablation.md) | What a model assumes when the prompt omits the graph type |
 | [four-model-detection.md](four-model-detection.md) | Permutation-disagreement detection and voting on all four models |
+| [duplicate-edge-hint.md](duplicate-edge-hint.md) | A one-sentence prompt hint against duplicate-edge counting, on two models (archived result) |
 
 ## The one-paragraph summary
 

@@ -8,8 +8,8 @@ The abstract, contributions, results and conclusion are written against the
 results on `main`: `ANALYSIS.md` (section 8 for the mitigation experiments) and the
 reports in `docs/` (`erdos-m3-graph-type-rerun.md`, `graph-type-omission-ablation.md`,
 `four-model-detection.md`), whose numbers trace to committed tables. The one exception
-is the duplicate-edge hint, whose tables are on `origin/mitigation-dedup` (removed
-from main in 9e17199; the paper says it covers two models). LaTeX comments record
+is the duplicate-edge hint, run on a development branch and archived here with its tables in
+`docs/duplicate-edge-hint.md` (the paper says it covers two models). LaTeX comments record
 sources, denominators and settings; they do not appear in the compiled paper. No
 new model inference was run for the paper.
 

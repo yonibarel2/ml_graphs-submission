@@ -16,7 +16,8 @@ never written to.
 
 Not covered, because they need model replies that are not in the scored records or new calls:
 program_voting.csv and solver_per_task.csv, canonical_labeling.csv (the accuracy half of E3),
-results/floor*.json, results/erdos_m3fix/ and the per-question notes under results/review/.
+results/floor*.json, results/erdos_m3fix/, the archived results/mitigation_*/ and the per-question
+notes under results/review/.
 
 Takes about 20 minutes. Needs network access to huggingface.co (public datasets, no token) and about 20 MB of downloads.
 Exit status 0 only if every check passes.
