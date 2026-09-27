@@ -16,16 +16,12 @@ benefit depends on model, task interpretation, and graph presentation.
 
 | Path | Contents |
 |---|---|
-| [`paper/`](paper/) | The paper (`main.tex`, `main.pdf`) |
-| [`ANALYSIS.md`](ANALYSIS.md) | All results, with the follow-up experiments in §8 |
-| [`docs/`](docs/README.md) | Design notes and focused result reports; [`docs/code-tour.md`](docs/code-tour.md) walks through the code |
 | `src/gsi/` | The pipeline: data, serialization, prompts, model client, sandbox, scoring, analysis |
 | `configs/` | Experiment configs (`graphqa.yaml`, `erdos.yaml`) and model endpoints (`models.yaml`) |
 | `scripts/` | Entry points (`run.py`, `analyze.py`), one script per follow-up experiment, `verify.py` |
 | `data/processed/*/instances.jsonl` | The sampled graphs, tasks and ground truth |
 | `results/` | Tables and figures per dataset and per follow-up run, repeat-prompt floors (`floor*.json`), and read-only audits (`review/`) |
 | `tests/` | Test suite |
-| `project proposal/` | The original proposal |
 
 The scored records and raw model replies are published on Hugging Face:
 [Dolevabudi/graph-serialization-invariance](https://huggingface.co/datasets/Dolevabudi/graph-serialization-invariance)
